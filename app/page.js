@@ -28,7 +28,7 @@ export default function Home() {
             ремонт
           </p>
 
-          <h3 className={styles.section_title}>Добре дошли в Автоблог!</h3>
+          <h3 className={styles.section_title}>Добре дошли в Автоблог</h3>
 
           <p className={styles.section_text}>
             В този раздел ще ви запознаем с най-актуалните новини от
@@ -60,7 +60,7 @@ export default function Home() {
             да споделяте опит и да обсъждате теми, свързани с автомобилите.
           </p>
 
-          <h3 className={styles.section_title}>Присъединете се към нас!</h3>
+          <h3 className={styles.section_title}>Присъединете се към нас</h3>
 
           <p className={styles.section_text}>
             Следете Автоблог, за да сте в крак с най-новите новини от света на
