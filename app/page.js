@@ -13,7 +13,6 @@ export default function Home() {
   return (
     <>
       {/* cover */}
-      <Head><meta name="google-site-verification" content="sfRPcXRVIhRKjhZZpZq4w-Z2eWaHcXE8C-G-Ntxkrd0" /></Head>
       <main className={styles.container}>
         <div className={styles.cover}>
           <h1 className={styles.title}>Autoblog - новини за коли</h1>
@@ -65,9 +64,8 @@ export default function Home() {
 
           <p className={styles.section_text}>
             Следете Автоблог, за да сте в крак с най-новите новини от света на
-            колите. 
+            колите.
           </p>
-          
         </section>
       </main>
     </>
