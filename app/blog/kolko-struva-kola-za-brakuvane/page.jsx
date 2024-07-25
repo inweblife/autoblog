@@ -2,6 +2,11 @@ import Link from "next/link";
 
 import styles from "./kolko.module.css";
 
+export const metadata = {
+  title: "Колко струва кола за бракуване",
+  description: "Колко струва кола за бракуване, как да спечелите повече.",
+};
+
 export default function Kolko() {
   return (
     <>
