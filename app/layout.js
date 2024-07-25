@@ -13,8 +13,10 @@ export const metadata = {
   icons: {
     icon: "/icon.ico",
   },
-};
-
+  other: {
+    'google-site-verification': 'sfRPcXRVIhRKjhZZpZq4w-Z2eWaHcXE8C-G-Ntxkrd0',
+  },
+};  
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
