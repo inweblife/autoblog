@@ -2,6 +2,11 @@ import Link from "next/link";
 
 import styles from "./documenti.module.css";
 
+export const metadata = {
+  title: "Документи за да бракувате кола",
+  description: "Какви са всички необходими документи, за да бракувате кола",
+};
+
 export default function Documenti() {
   return (
     <>
