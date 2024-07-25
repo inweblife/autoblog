@@ -13,6 +13,9 @@ export const metadata = {
   icons: {
     icon: "/icon.ico",
   },
+  verification: {
+    google: '<meta name="google-site-verification" content="sfRPcXRVIhRKjhZZpZq4w-Z2eWaHcXE8C-G-Ntxkrd0" />',
+  }
 };
 
 export default function RootLayout({ children }) {
