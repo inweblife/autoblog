@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    color: #634A00;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+
+header {
+    padding: 1em;
+    background: #EADFDB;
+    color: #634A00;
+  }
+  .title {
+    font-family: 'Rye', cursive;
+    font-size: 2em;
+    text-align: center;
+    padding: .5em;
+    margin: 0;
+  }
+  
+  .menu_list {
+    margin: 0;
+    padding: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .menu_list a{
+    color: #634A00;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: .5em;
+  }
+
+  footer {
+    text-align: center;
+    background: #EADFDB;
+    color: #634A00;
+    font-weight: bold;
+    padding: 1em;
+  }

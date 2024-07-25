@@ -1,0 +1,87 @@
+.container {
+  max-width: 100%;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cover {
+  background-image: url("../blog/blog.webp"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Заменете с пътя до вашето изображение */
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.title {
+  color: white;
+  text-align: center;
+}
+
+.section_one {
+  display: grid;
+  place-items: center;
+}
+
+.section_title {
+  text-align: center;
+}
+
+.section_text {
+  text-align: justify;
+  font-size: 1.2rem;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+.card {
+  max-width: 95%;
+  text-align: center;
+}
+
+.card_title {
+  font-size: 1.5em;
+  margin: 16px 0;
+  color: #333;
+}
+
+.card_text {
+  font-size: 1.2em;
+  padding: 0 16px;
+  margin: 16px 0;
+}
+
+.card_link {
+  display: inline-block;
+  margin: 16px 0;
+  padding: 8px 16px;
+  background-color: #634A00;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.card_link:hover {
+  background-color: #806200;
+}
+
+@media screen and (min-width: 46em) {
+  .section_one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .section_text {
+    margin: auto;
+    padding-bottom: 1em;
+    max-width: 700px;
+  }
+}
