@@ -6,6 +6,20 @@ import styles from "./blog.module.css";
 export const metadata = {
   title: "Блог за коли | Autoblog", 
   description: "Новини за автомобили, авточасти и бракуване на коли",
+  openGraph: {
+    title: 'Блог за коли | Autoblog',
+    description: 'Новини за автомобили, авточасти и бракуване на коли',
+    url: 'https://autoblog-bg.vercel.app/blog/',
+    type: 'website',
+    images: [
+      {
+        url: 'https://autoblog-bg.vercel.app/blog.webp',
+        width: 800,
+        height: 600,
+        alt: 'a car to be scrapped',
+      },
+    ],
+  },
 };
 
 export default function Blog() {
