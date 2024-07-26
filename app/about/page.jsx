@@ -4,7 +4,21 @@ import styles from "./about.module.css";
 
 export const metadata = {
   title: "За нас | Autoblog",
-  description: "Новини за автомобили, авточасти и бракуване на коли",
+  description: "За нас и защо пишем новини за автомобили, авточасти и бракуване на коли",
+  openGraph: {
+    title: 'За нас | Autoblog',
+    description: 'За нас и защо пишем новини за автомобили, авточасти и бракуване на коли',
+    url: 'https://autoblog-bg.vercel.app/about/',
+    type: 'website',
+    images: [
+      {
+        url: 'https://autoblog-bg.vercel.app/about.webp',
+        width: 800,
+        height: 600,
+        alt: 'a lady read news',
+      },
+    ],
+  },
 };
 
 export default function about() {
