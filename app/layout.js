@@ -16,6 +16,20 @@ export const metadata = {
   other: {
     'google-site-verification': 'sfRPcXRVIhRKjhZZpZq4w-Z2eWaHcXE8C-G-Ntxkrd0',
   },
+  openGraph: {
+    title: 'Autoblog',
+    description: 'Новини за автомобили, авточасти и бракуване на коли',
+    url: 'https://autoblog-bg.vercel.app/',
+    type: 'website',
+    images: [
+      {
+        url: 'https://autoblog-bg.vercel.app/cover.webp',
+        width: 800,
+        height: 600,
+        alt: 'car scrap',
+      },
+    ],
+  },
 };  
 export default function RootLayout({ children }) {
   return (
