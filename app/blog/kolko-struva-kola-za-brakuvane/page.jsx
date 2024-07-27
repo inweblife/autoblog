@@ -44,7 +44,7 @@ export default function Kolko() {
         <p className={styles.section_text}>
           На много места по света, собственикът на автомобил, който не е
           допуснат до движение по пътищата и трябва да се рециклира, плаща за
-          това. И самата<Link href="https://ecometal.bg/blog/kak-raboti-procesa-po-izkupuvane-na-koli/">
+          това. И самата <Link href="https://ecometal.bg/blog/kak-raboti-procesa-po-izkupuvane-na-koli/">
             <strong>процедура по бракуване на кола</strong>
           </Link>е скъпа. В България, обаче, собственикът може да вземе сериозна сума,
           когато продаде превозното си средство като метален отпадък. И, не само
