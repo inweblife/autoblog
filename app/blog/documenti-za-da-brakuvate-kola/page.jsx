@@ -5,6 +5,20 @@ import styles from "./documenti.module.css";
 export const metadata = {
   title: "Документи за да бракувате кола",
   description: "Какви са всички необходими документи, за да бракувате кола",
+  openGraph: {
+    title: 'Документи за да бракувате кола',
+    description: 'Какви са всички необходими документи, за да бракувате кола',
+    url: 'https://autoblog-bg.vercel.app/blog/documenti-za-da-brakuvate-kola',
+    type: 'website',
+    images: [
+      {
+        url: 'https://autoblog-bg.vercel.app/documenti.webp',
+        width: 800,
+        height: 600,
+        alt: 'junk cars',
+      },
+    ],
+  },
 };
 
 export default function Documenti() {

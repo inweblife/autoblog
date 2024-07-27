@@ -5,6 +5,20 @@ import styles from "./kolko.module.css";
 export const metadata = {
   title: "Колко струва кола за бракуване",
   description: "Колко струва кола за бракуване, как да спечелите повече.",
+  openGraph: {
+    title: 'Колко струва кола за бракуване',
+    description: 'Колко струва кола за бракуване, как да спечелите повече.',
+    url: 'https://autoblog-bg.vercel.app/blog/kolko-struva-kola-za-brakuvane',
+    type: 'website',
+    images: [
+      {
+        url: 'https://autoblog-bg.vercel.app/carscrap.webp',
+        width: 800,
+        height: 600,
+        alt: 'junk car',
+      },
+    ],
+  },
 };
 
 export default function Kolko() {
