@@ -6,16 +6,16 @@ export const metadata = {
   title: "Колко струва кола за бракуване",
   description: "Колко струва кола за бракуване, как да спечелите повече.",
   openGraph: {
-    title: 'Колко струва кола за бракуване',
-    description: 'Колко струва кола за бракуване, как да спечелите повече.',
-    url: 'https://autoblog-bg.vercel.app/blog/kolko-struva-kola-za-brakuvane',
-    type: 'website',
+    title: "Колко струва кола за бракуване",
+    description: "Колко струва кола за бракуване, как да спечелите повече.",
+    url: "https://autoblog-bg.vercel.app/blog/kolko-struva-kola-za-brakuvane",
+    type: "website",
     images: [
       {
-        url: 'https://autoblog-bg.vercel.app/carscrap.webp',
+        url: "https://autoblog-bg.vercel.app/carscrap.webp",
         width: 800,
         height: 600,
-        alt: 'junk car',
+        alt: "junk car",
       },
     ],
   },
@@ -44,11 +44,12 @@ export default function Kolko() {
         <p className={styles.section_text}>
           На много места по света, собственикът на автомобил, който не е
           допуснат до движение по пътищата и трябва да се рециклира, плаща за
-          това. И самата процедура по бракуване на кола е скъпа. В България,
-          обаче, собственикът може да вземе сериозна сума, когато продаде
-          превозното си средство като метален отпадък. И, не само че не заплаща
-          нищо, а накрая и получава между 300 и 800 лева за продажба на стария
-          си автомобил за скрап
+          това. И самата<Link href="https://ecometal.bg/blog/kak-raboti-procesa-po-izkupuvane-na-koli/">
+            <strong>процедура по бракуване на кола</strong>
+          </Link>е скъпа. В България, обаче, собственикът може да вземе сериозна сума,
+          когато продаде превозното си средство като метален отпадък. И, не само
+          че не заплаща нищо, а накрая и получава между 300 и 800 лева за
+          продажба на стария си автомобил за скрап
         </p>
 
         <h3 className={styles.section_title}>
@@ -124,8 +125,9 @@ export default function Kolko() {
           сменя с други.
         </p>
 
-        <Link href="/blog/" className={styles.card_link}>Към блога</Link>
-
+        <Link href="/blog/" className={styles.card_link}>
+          Към блога
+        </Link>
       </section>
     </>
   );
