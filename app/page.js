@@ -45,8 +45,7 @@ export default function Home() {
             се предприеме бракуване. В този раздел ще ви запознаем с процеса на 
             <Link href="/blog/kolko-struva-kola-za-brakuvane">
               <strong>бракуване на автомобили</strong>
-            </Link>
-            , както и с различните възможности за рециклиране на части.
+            </Link>, както и с различните възможности за рециклиране на части.
           </p>
 
           <h3 className={styles.section_title}>
