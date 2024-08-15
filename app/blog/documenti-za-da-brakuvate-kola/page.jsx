@@ -6,16 +6,16 @@ export const metadata = {
   title: "Документи за да бракувате кола",
   description: "Какви са всички необходими документи, за да бракувате кола",
   openGraph: {
-    title: 'Документи за да бракувате кола',
-    description: 'Какви са всички необходими документи, за да бракувате кола',
-    url: 'https://autoblog-bg.vercel.app/blog/documenti-za-da-brakuvate-kola',
-    type: 'website',
+    title: "Документи за да бракувате кола",
+    description: "Какви са всички необходими документи, за да бракувате кола",
+    url: "https://autoblog-bg.vercel.app/blog/documenti-za-da-brakuvate-kola",
+    type: "website",
     images: [
       {
-        url: 'https://autoblog-bg.vercel.app/documenti.webp',
+        url: "https://autoblog-bg.vercel.app/documenti.webp",
         width: 800,
         height: 600,
-        alt: 'junk cars',
+        alt: "junk cars",
       },
     ],
   },
@@ -33,12 +33,16 @@ export default function Documenti() {
       <section className={styles.section}>
         <h2 className={styles.section_title}>Документи за да бракувате кола</h2>
         <p className={styles.section_text}>
-          Какви са необходимите документи за да бракувате кола?! Това е първият
-          въпрос, който идва на ум на всеки, който е решил, че е дошло времето
-          да рециклира стария си автомобил. Объркването идва от там, че всъщност
-          в този въпрос се състоят цели две процедури - едната е свързана с
-          продажбата на кола за бракуване. А втората - с отписването на колата
-          от КАТ, където се сваля от отчет и се маха от общината.
+          Какви са необходимите{" "}
+          <Link href="https://kolazascrap.com/blog/documenti-za-brakuvane-na-kola/">
+            <strong>документи за да бракувате кола?!</strong>
+          </Link>{" "}
+          Това е първият въпрос, който идва на ум на всеки, който е решил, че е
+          дошло времето да рециклира стария си автомобил. Объркването идва от
+          там, че всъщност в този въпрос се състоят цели две процедури - едната
+          е свързана с продажбата на кола за бракуване. А втората - с
+          отписването на колата от КАТ, където се сваля от отчет и се маха от
+          общината.
         </p>
 
         <p className={styles.section_text}>
@@ -121,8 +125,9 @@ export default function Documenti() {
           превозно средство за следващата.
         </p>
 
-        <Link href="/blog/" className={styles.card_link}>Към блога</Link>
-        
+        <Link href="/blog/" className={styles.card_link}>
+          Към блога
+        </Link>
       </section>
     </>
   );
