@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: ['/', '/blog'],
       disallow: '/private/',
     },
-    sitemap: 'https://autoblog-bg.vercel.app/sitemap.xml',
+    sitemap: `${baseUrl}/sitemap.xml`,
   }
 }
 
