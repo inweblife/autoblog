@@ -2,14 +2,13 @@
 import type { MetadataRoute } from 'next'
  
 export default function robots(): MetadataRoute.Robots {
-    const baseUrl = "https://autoblog-bg.vercel.app/"
-  return {
+    return {
     rules: {
       userAgent: '*',
-      allow: ['/', '/blog'],
+      allow: '/',
       disallow: '/private/',
     },
-    sitemap: `${baseUrl}/sitemap.xml`,
+    sitemap: 'https://autoblog-bg.vercel.app//sitemap.xml',
   }
 }
 
