@@ -1,4 +1,15 @@
-User-agent: *
-Allow: /
 
-Sitemap: https://autoblog-bg.vercel.app/sitemap.xml
+import type { MetadataRoute } from 'next'
+ 
+export default function robots(): MetadataRoute.Robots {
+    const baseUrl = "https://autoblog-bg.vercel.app/"
+  return {
+    rules: {
+      userAgent: '*',
+      allow: ['/', '/blog'],
+      disallow: '/private/',
+    },
+    sitemap: 'https://autoblog-bg.vercel.app/sitemap.xml',
+  }
+}
+
