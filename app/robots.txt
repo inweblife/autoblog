@@ -1,8 +1,0 @@
-User-Agent: *
-Allow: /
-Disallow: /private/
-
-sitemap: https://autoblog-bg.vercel.app/sitemap.xml
-
-  
-
