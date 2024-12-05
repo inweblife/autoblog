@@ -5,7 +5,7 @@ import styles from "./blog.module.css";
 
 export const metadata = {
   title: "Блог за коли | Autoblog", 
-  description: "Новини за автомобили, авточасти и бракуване на коли",
+  description: "Тук ще намерите отговорите на всички въпроси, свързани с ремонти на автомобили, авточасти втора употреба и бракуване на стари коли.",
   openGraph: {
     title: 'Блог за коли | Autoblog',
     description: 'Новини за автомобили, авточасти и бракуване на коли',
