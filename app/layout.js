@@ -19,11 +19,11 @@ export const metadata = {
   openGraph: {
     title: 'Autoblog',
     description: 'Новини за автомобили, авточасти и бракуване на коли',
-    url: 'https://autoblog-bg.vercel.app/',
+    url: 'https://autoblog-bg.netlify.app/',
     type: 'website',
     images: [
       {
-        url: 'https://autoblog-bg.vercel.app/cover.webp',
+        url: 'https://autoblog-bg.netlify.app/cover.webp',
         width: 800,
         height: 600,
         alt: 'car scrap',

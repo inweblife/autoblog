@@ -8,11 +8,11 @@ export const metadata = {
   openGraph: {
     title: "Колко струва кола за бракуване",
     description: "Колко струва кола за бракуване, как да спечелите повече.",
-    url: "https://autoblog-bg.vercel.app/blog/kolko-struva-kola-za-brakuvane",
+    url: "https://autoblog-bg.netlify.app/blog/kolko-struva-kola-za-brakuvane",
     type: "website",
     images: [
       {
-        url: "https://autoblog-bg.vercel.app/carscrap.webp",
+        url: "https://autoblog-bg.netlify.app/carscrap.webp",
         width: 800,
         height: 600,
         alt: "junk car",

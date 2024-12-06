@@ -8,11 +8,11 @@ export const metadata = {
   openGraph: {
     title: 'За нас | Autoblog',
     description: 'За нас и защо пишем новини за автомобили, авточасти и бракуване на коли',
-    url: 'https://autoblog-bg.vercel.app/about/',
+    url: 'https://autoblog-bg.netlify.app/about/',
     type: 'website',
     images: [
       {
-        url: 'https://autoblog-bg.vercel.app/about.webp',
+        url: 'https://autoblog-bg.netlify.app/about.webp',
         width: 800,
         height: 600,
         alt: 'a lady read news',
