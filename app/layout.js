@@ -14,7 +14,7 @@ export const metadata = {
     icon: "/icon.ico",
   },
   other: {
-    'google-site-verification': 'sfRPcXRVIhRKjhZZpZq4w-Z2eWaHcXE8C-G-Ntxkrd0',
+    'google-site-verification': '_9S3dRyfOj_BuYTcSFmz14Fm5vFqv5XMJGFPNpmlo_4',
   },
   openGraph: {
     title: 'Autoblog',
