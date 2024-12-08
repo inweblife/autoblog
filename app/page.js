@@ -8,11 +8,7 @@ export const metadata = {
   title: "Autoblog | Новини за коли",
   description:
     "Новини за автомобили, авточасти втора употреба и бракуване на коли. Ценни съвети за всеки фен на колите, който иска да е в крак с модата",
-  keywords: [
-    "Авточасти втора употреба", 
-    "Бракуване на коли",
-    "Новини за коли",
-  ]  
+  keywords: ["Авточасти втора употреба", "Бракуване на коли", "Новини за коли"],
 };
 
 export default function Home() {
@@ -31,7 +27,11 @@ export default function Home() {
           <p className={styles.section_text}>
             Тук ще откриете информация за всичко, що се отнася до автомобилите -
             от най-новите модели и технологии до практични съвети за поддръжка и
-            ремонт
+            ремонт, ценни съвети за{" "}
+            <Link href="https://carco.bg/blog/avtomorga-ili-online-magazin-za-avtochasti-vtora-raka">
+              <strong>авточасти втора употреба</strong>
+            </Link>{" "}
+            и др.
           </p>
 
           <h3 className={styles.section_title}>Добре дошли в Автоблог</h3>
@@ -78,7 +78,7 @@ export default function Home() {
             <Link href="/about">
               <strong>Автоблог</strong>
             </Link>
-            , за да сте в крак с най-новите новини от света на колите.
+            , за да сте в крак с най-новите новини от света на колите..
           </p>
         </section>
       </main>
