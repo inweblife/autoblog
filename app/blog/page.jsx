@@ -96,6 +96,58 @@ export default function Blog() {
                 Прочети още
               </Link>
             </div>
+
+            <div className={styles.card}>
+              <Image
+                src="/vehicle.webp"
+                alt="car preparation"
+                width={1024}
+                height={768}
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                }}
+              />
+              <h3 className={styles.card_title}>
+                Как да подготвя кола за бракуване
+              </h3>
+              <p className={styles.card_text}>
+                Полезни съвети и стъпки за правилна подготовка на{" "}
+                <strong>автомобил преди бракуване</strong>.
+              </p>
+              <Link
+                href="/blog/kak-da-podgotvya-kola-za-brakuvane"
+                className={styles.card_link}
+              >
+                Прочети още
+              </Link>
+            </div>
+
+            <div className={styles.card}>
+              <Image
+                src="/oldcar.webp"
+                alt="old car scrapping"
+                width={1024}
+                height={768}
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                }}
+              />
+              <h3 className={styles.card_title}>
+                Изкупуване на коли за скрап
+              </h3>
+              <p className={styles.card_text}>
+                Как работи процесът на изкупуване на коли за скрап и какво трябва
+                да знаете.
+              </p>
+              <Link
+                href="/blog/izkupuvane-na-koli-za-skrap"
+                className={styles.card_link}
+              >
+                Прочети още
+              </Link>
+            </div>
           </section>
         </section>
       </main>
