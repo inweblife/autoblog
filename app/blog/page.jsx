@@ -113,7 +113,7 @@ export default function Blog() {
               </h3>
               <p className={styles.card_text}>
                 Полезни съвети и стъпки за правилна подготовка на{" "}
-                <strong>автомобил преди бракуване</strong>.
+                <strong>автомобил за бракуване</strong>.
               </p>
               <Link
                 href="/blog/kak-da-podgotvya-kola-za-brakuvane"
