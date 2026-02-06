@@ -44,9 +44,9 @@ export default function Kolko() {
         <p className={styles.section_text}>
           На много места по света, собственикът на автомобил, който не е
           допуснат до движение по пътищата и трябва да се рециклира, плаща за
-          това. И самата <Link href="https://ecometal.bg/blog/kak-raboti-procesa-po-izkupuvane-na-koli/">
+          това. И самата <a href="https://ecometal.bg/blog/kak-raboti-procesa-po-izkupuvane-na-koli/" target="_blank" rel="noopener noreferrer">
             <strong>процедура по бракуване на кола</strong>
-          </Link> е скъпа. В България, обаче, собственикът може да вземе сериозна сума,
+          </a> е скъпа. В България, обаче, собственикът може да вземе сериозна сума,
           когато продаде превозното си средство като метален отпадък. И, не само
           че не заплаща нищо, а накрая и получава между 300 и 800 лева за
           продажба на стария си автомобил за скрап

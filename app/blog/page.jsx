@@ -113,9 +113,9 @@ export default function Blog() {
               </Link>
               <p className={styles.card_text}>
                 Полезни съвети и стъпки за правилна подготовка на{" "}
-                <Link href="https://kolazascrap.com/blog/stari-koli-za-brakuvane/">
+                <a href="https://kolazascrap.com/blog/stari-koli-za-brakuvane/" target="_blank" rel="noopener noreferrer">
                   <strong>автомобил за бракуване</strong>
-                </Link>
+                </a>
                 .
               </p>
               <Link
@@ -140,9 +140,9 @@ export default function Blog() {
               <Link href="/blog/izkupuvane-na-koli-za-skrap" className={styles.card_title} aria-label="Изкупуване на коли за скрап">Изкупуване на коли за скрап</Link>
               <p className={styles.card_text}>
                 Как работи процесът на{" "}
-                <Link href="https://kolazascrap.com/blog/izkupuvane-na-koli-za-brakuvane/">
+                <a href="https://kolazascrap.com/blog/izkupuvane-na-koli-za-brakuvane/" target="_blank" rel="noopener noreferrer">
                   <strong>изкупуване на коли за скрап</strong>
-                </Link>{" "}
+                </a>{" "}
                 и какво трябва да знаете.
               </p>
               <Link
@@ -167,9 +167,9 @@ export default function Blog() {
               <Link href="/blog/kogato-dvigatela-e-za-smyana" className={styles.card_title} aria-label="Когато двигателя е за смяна">Когато двигателя е за смяна</Link>
               <p className={styles.card_text}>
                 Полезни съвети{" "}
-                <Link href="https://carco.bg/blog/smiana-na-povreden-dvigatel">
+                <a href="https://carco.bg/blog/smiana-na-povreden-dvigatel" target="_blank" rel="noopener noreferrer">
                   <strong>когато двигателя е за смяна</strong>
-                </Link>
+                </a>
                 . Кога се налага смяна, как да изберете надежден двигател втора
                 употреба.
               </p>
@@ -197,9 +197,9 @@ export default function Blog() {
               </Link>
               <p className={styles.card_text}>
                 Полезни съвети разпознайте признаци на{" "}
-                <Link href="https://carco.bg/blog/skorostna-kutiya-vtora-raka">
+                <a href="https://carco.bg/blog/skorostna-kutiya-vtora-raka" target="_blank" rel="noopener noreferrer">
                   <strong>повредена скоростна кутия</strong>
-                </Link>
+                </a>
                 . Как да разбете дали проблема е в скоростната кутия, а не в
                 съединителя.
               </p>

@@ -47,16 +47,16 @@ export default function Izkupuvane() {
 
         <p className={styles.section_text}>
           Процесът на{" "}
-          <Link href="https://kolazascrap.com/blog/izkupuvane-na-koli/">
+          <a href="https://kolazascrap.com/blog/izkupuvane-na-koli/" target="_blank" rel="noopener noreferrer">
             <strong>изкупуване на коли</strong>
-          </Link>{" "}
+          </a>{" "}
           е достатъчно прост. Собственикът се свързва с лицензирано рециклиращо
           предприятие, предоставя информация за своя автомобил, и получава
           оценка. Ако цената го устройства, предприятието назначава дата и час
           за предаване на превозното средство. При
-          <Link href="https://kolizascrap.com/blog/kak-da-brakuvam-kola/">
+          <a href="https://kolizascrap.com/blog/kak-da-brakuvam-kola/" target="_blank" rel="noopener noreferrer">
             <strong> бракуване на автомобил</strong>
-          </Link>
+          </a>
           , собственикът трябва да е налице със всички необходими документи.
         </p>
 
@@ -81,9 +81,9 @@ export default function Izkupuvane() {
           да изчислят теглото на автомобил въз основа на марката, моделът и
           годината на производство. Ако например сте от морската ни столица и
           имате{" "}
-          <Link href="https://kolazascrap.com/koli-za-scrap-varna/">
+          <a href="https://kolazascrap.com/koli-za-scrap-varna/" target="_blank" rel="noopener noreferrer">
             <strong>кола за скрап във Варна</strong>
-          </Link> може да видите веднага колко струва в коли за скрап калкулатора.
+          </a> може да видите веднага колко струва в коли за скрап калкулатора.
           Така че, стойността може да варира в зависимост от борсовата цена на металите
           и състоянието на превозното средство, както и местонахождението на автомобила.
         </p>

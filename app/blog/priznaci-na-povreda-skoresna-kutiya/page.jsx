@@ -121,13 +121,13 @@ export default function PoznaciNaPovredena() {
           Първо, трябва да знаете точния модел скоростна кутия, който трябва на
           вашия автомобил. Тя варира в зависимост от мотора, броя на скоростите
           и дали е{" "}
-          <Link href="https://carco.bg/chasti/skorosti-i-transmisiya/rachni-skorosti">
+          <a href="https://carco.bg/chasti/skorosti-i-transmisiya/rachni-skorosti" target="_blank" rel="noopener noreferrer">
             <strong>механична скоростна кутия</strong>
-          </Link>{" "}
+          </a>{" "}
           или{" "}
-          <Link href="https://carco.bg/chasti/skorosti-i-transmisiya/avtomatichni-skorosti">
+          <a href="https://carco.bg/chasti/skorosti-i-transmisiya/avtomatichni-skorosti" target="_blank" rel="noopener noreferrer">
             <strong>автоматична скоростна кутия втора ръка</strong>
-          </Link>
+          </a>
           . Проверете документацията на колата или попитайте специалист. След
           това потърсете надежни доставчици - онлайн платформи, счетоводни
           проверени фирми, или лични механици със добра репутация.

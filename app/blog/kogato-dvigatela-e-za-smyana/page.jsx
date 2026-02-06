@@ -107,9 +107,9 @@ export default function KogatoDvigatela() {
 
         <p className={styles.section_text}>
           Цената на{" "}
-          <Link href="https://carco.bg/chasti/dvigatel-i-oborudvane/tseli-dvigateli">
+          <a href="https://carco.bg/chasti/dvigatel-i-oborudvane/tseli-dvigateli" target="_blank" rel="noopener noreferrer">
             <strong>двигател втора ръка</strong>
-          </Link>{" "}
+          </a>{" "}
           варира значително в зависимост от няколко фактора. На първо място е
           моделът на двигателя - по-мощни и по-редки двигатели струват
           значително повече. На второ място е състоянието на двигателя. Нов,

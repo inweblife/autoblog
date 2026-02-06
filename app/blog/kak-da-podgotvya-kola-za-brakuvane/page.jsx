@@ -36,9 +36,9 @@ export default function KakDaPodgotvya() {
         </h2>
         <p className={styles.section_text}>
           Подготвянето на{" "}
-          <Link href="https://kolizascrap.com/">
+          <a href="https://kolizascrap.com/" target="_blank" rel="noopener noreferrer">
             <strong>автомобил за бракуване</strong>
-          </Link>{" "}
+          </a>{" "}
           е важен процес, който помага да се получи максимална цена за
           превозното средство. Има няколко стъпки, които трябва да следите, за
           да бъде процесът гладък и без затруднения. В тази публикация ще
@@ -64,9 +64,9 @@ export default function KakDaPodgotvya() {
 
         <p className={styles.section_text}>
           Макар че, когато се готвите за
-          <Link href="https://kolazascrap.com/blog/deregistracia-na-mps/">
+          <a href="https://kolazascrap.com/blog/deregistracia-na-mps/" target="_blank" rel="noopener noreferrer">
             <strong> дерегистрация на МПС</strong>
-          </Link>
+          </a>
           , обикновено, става дума за старо превозно средство, е добре да
           проверите дали има явни недостатъци, които могат да намалят стойността
           на автомобила. Проверете гумите, фарове, челното стъкло и други
@@ -109,9 +109,9 @@ export default function KakDaPodgotvya() {
           при рециклирането на превозни средства. Получете оценка за вашия
           автомобил по телефон или онлайн преди да се договорите за времето на
           предаване. Повечето компании могат дори да предоставят{" "}
-          <Link href="https://kolazascrap.com/blog/scrap-koli-izkupuvane-ot-adres/">
+          <a href="https://kolazascrap.com/blog/scrap-koli-izkupuvane-ot-adres/" target="_blank" rel="noopener noreferrer">
             <strong>безплатен транспорт за автомобила</strong>
-          </Link>
+          </a>
           , независимо в коя част на България се намира.
         </p>
 

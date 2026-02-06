@@ -34,15 +34,15 @@ export default function Documenti() {
         <h2 className={styles.section_title}>Документи за да бракувате кола</h2>
         <p className={styles.section_text}>
           Какви са необходимите{" "}
-          <Link href="https://kolazascrap.com/blog/documenti-za-brakuvane-na-kola/">
+          <a href="https://kolazascrap.com/blog/documenti-za-brakuvane-na-kola/" target="_blank" rel="noopener noreferrer">
             <strong>документи за да бракувате кола?!</strong>
-          </Link>{" "}
+          </a>{" "}
           Това е първият въпрос, който идва на ум на всеки, който е решил, че е
           дошло времето да рециклира стария си автомобил. Объркването идва от
           там, че всъщност в този въпрос се състоят цели две процедури - едната
-          е свързана с <Link href="https://ecometal.bg/blog/kak-se-prodava-kola-za-brakuvane/"><strong>продажбата на кола за бракуване. </strong></Link>
+          е свързана с <a href="https://ecometal.bg/blog/kak-se-prodava-kola-za-brakuvane/" target="_blank" rel="noopener noreferrer"><strong>продажбата на кола за бракуване. </strong></a>
           А втората - с 
-          <Link href="https://kolazascrap.com/blog/kakav-e-srokat-za-otpisvane-na-kola-ot-kat/"><strong> отписването на колата от КАТ</strong></Link>, където се сваля от отчет и се маха от
+          <a href="https://kolazascrap.com/blog/kakav-e-srokat-za-otpisvane-na-kola-ot-kat/" target="_blank" rel="noopener noreferrer"><strong> отписването на колата от КАТ</strong></a>, където се сваля от отчет и се маха от
           общината.
         </p>
 
