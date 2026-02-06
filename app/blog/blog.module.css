@@ -25,7 +25,9 @@
 
 .section_one {
   display: grid;
-  place-items: center;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  place-items: stretch;
 }
 
 .section_title {
@@ -61,6 +63,8 @@
   margin: 16px 0;
   color: #333;
   flex-grow: 1;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .card_text {
@@ -86,10 +90,9 @@
 
 @media screen and (min-width: 46em) {
   .section_one {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    max-width: 900px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    max-width: 1200px;
     margin: 0 auto;
   }
 

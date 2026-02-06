@@ -50,9 +50,9 @@ export default function Blog() {
                   height: "auto",
                 }}
               />
-              <h3 className={styles.card_title}>
+              <Link href="/blog/kolko-struva-kola-za-brakuvane" className={styles.card_title} aria-label="Колко струва кола за бракуване">
                 Колко струва кола за бракуване
-              </h3>
+              </Link>
               <p className={styles.card_text}>
                 Искаете да знаете{" "}
                 <a href="https://kolazascrap.com/blog/kolko-struva-kola-za-scrap/">
@@ -79,9 +79,9 @@ export default function Blog() {
                   height: "auto",
                 }}
               />
-              <h3 className={styles.card_title}>
+              <Link href="/blog/documenti-za-da-brakuvate-kola" className={styles.card_title} aria-label="Документи за да бракувате кола">
                 Документи за да бракувате кола
-              </h3>
+              </Link>
               <p className={styles.card_text}>
                 Какви са всички необходими документи, за да{" "}
                 <a href="https://kolazascrap.com/blog/brakuvane-na-avtomobil/">
@@ -108,12 +108,15 @@ export default function Blog() {
                   height: "auto",
                 }}
               />
-              <h3 className={styles.card_title}>
+              <Link href="/blog/kak-da-podgotvya-kola-za-brakuvane" className={styles.card_title} aria-label="Как да подготвя кола за бракуване">
                 Как да подготвя кола за бракуване
-              </h3>
+              </Link>
               <p className={styles.card_text}>
                 Полезни съвети и стъпки за правилна подготовка на{" "}
-                <strong>автомобил за бракуване</strong>.
+                <Link href="https://kolazascrap.com/blog/stari-koli-za-brakuvane/">
+                  <strong>автомобил за бракуване</strong>
+                </Link>
+                .
               </p>
               <Link
                 href="/blog/kak-da-podgotvya-kola-za-brakuvane"
@@ -134,15 +137,74 @@ export default function Blog() {
                   height: "auto",
                 }}
               />
-              <h3 className={styles.card_title}>
-                Изкупуване на коли за скрап
-              </h3>
+              <Link href="/blog/izkupuvane-na-koli-za-skrap" className={styles.card_title} aria-label="Изкупуване на коли за скрап">Изкупуване на коли за скрап</Link>
               <p className={styles.card_text}>
-                Как работи процесът на изкупуване на коли за скрап и какво трябва
-                да знаете.
+                Как работи процесът на{" "}
+                <Link href="https://kolazascrap.com/blog/izkupuvane-na-koli-za-brakuvane/">
+                  <strong>изкупуване на коли за скрап</strong>
+                </Link>{" "}
+                и какво трябва да знаете.
               </p>
               <Link
                 href="/blog/izkupuvane-na-koli-za-skrap"
+                className={styles.card_link}
+              >
+                Прочети още
+              </Link>
+            </div>
+
+            <div className={styles.card}>
+              <Image
+                src="/engine.webp"
+                alt="engine replacement"
+                width={1024}
+                height={768}
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                }}
+              />
+              <Link href="/blog/kogato-dvigatela-e-za-smyana" className={styles.card_title} aria-label="Когато двигателя е за смяна">Когато двигателя е за смяна</Link>
+              <p className={styles.card_text}>
+                Полезни съвети{" "}
+                <Link href="https://carco.bg/blog/smiana-na-povreden-dvigatel">
+                  <strong>когато двигателя е за смяна</strong>
+                </Link>
+                . Кога се налага смяна, как да изберете надежден двигател втора
+                употреба.
+              </p>
+              <Link
+                href="/blog/kogato-dvigatela-e-za-smyana"
+                className={styles.card_link}
+              >
+                Прочети още
+              </Link>
+            </div>
+
+            <div className={styles.card}>
+              <Image
+                src="/gearbox.webp"
+                alt="gearbox repair"
+                width={1024}
+                height={768}
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                }}
+              />
+              <Link href="/blog/priznaci-na-povreda-skoresna-kutiya" className={styles.card_title} aria-label="Признаци на повредена скоростна кутия">
+                Признаци на повредена скоростна кутия
+              </Link>
+              <p className={styles.card_text}>
+                Полезни съвети разпознайте признаци на{" "}
+                <Link href="https://carco.bg/blog/skorostna-kutiya-vtora-raka">
+                  <strong>повредена скоростна кутия</strong>
+                </Link>
+                . Как да разбете дали проблема е в скоростната кутия, а не в
+                съединителя.
+              </p>
+              <Link
+                href="/blog/priznaci-na-povreda-skoresna-kutiya"
                 className={styles.card_link}
               >
                 Прочети още
