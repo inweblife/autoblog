@@ -125,9 +125,15 @@ export default function Kolko() {
           сменя с други.
         </p>
 
-        <Link href="/blog/" className={styles.card_link}>
-          Към блога
-        </Link>
+        <nav className={styles.navigation}>
+          <Link href="/blog/" className={styles.nav_link}>
+            ← Назад към блога
+          </Link>
+          <div className={styles.nav_spacer}></div>
+          <Link href="/blog/documenti-za-da-brakuvate-kola" className={styles.nav_link}>
+            Следващ пост →
+          </Link>
+        </nav>
       </section>
     </>
   );

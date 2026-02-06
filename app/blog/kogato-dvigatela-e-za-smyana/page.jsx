@@ -173,6 +173,18 @@ export default function KogatoDvigatela() {
           ще работи, и можете да се наслаждавате на още години на вождение.
           Стойност на упорството е огромна.
         </p>
+
+        <nav className={styles.navigation}>
+          <Link href="/blog/izkupuvane-na-koli-za-skrap" className={styles.nav_link}>
+            ← Предишен пост
+          </Link>
+          <Link href="/blog/" className={styles.nav_link}>
+            Всички постове
+          </Link>
+          <Link href="/blog/priznaci-na-povreda-skoresna-kutiya" className={styles.nav_link}>
+            Следващ пост →
+          </Link>
+        </nav>
       </section>
     </>
   );

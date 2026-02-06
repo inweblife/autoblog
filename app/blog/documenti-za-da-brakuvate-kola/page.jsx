@@ -126,9 +126,17 @@ export default function Documenti() {
           превозно средство за следващата.
         </p>
 
-        <Link href="/blog/" className={styles.card_link}>
-          Към блога
-        </Link>
+        <nav className={styles.navigation}>
+          <Link href="/blog/kolko-struva-kola-za-brakuvane" className={styles.nav_link}>
+            ← Предишен пост
+          </Link>
+          <Link href="/blog/" className={styles.nav_link}>
+            Всички постове
+          </Link>
+          <Link href="/blog/kak-da-podgotvya-kola-za-brakuvane" className={styles.nav_link}>
+            Следващ пост →
+          </Link>
+        </nav>
       </section>
     </>
   );

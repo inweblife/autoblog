@@ -59,3 +59,35 @@
 .card_link:hover {
   background-color: #806200;
 }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-top: 48px;
+  padding-top: 28px;
+  border-top: 1px solid #e0e0e0;
+  flex-wrap: wrap;
+}
+
+.nav_link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background-color: #634a00;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.nav_link:hover {
+  background-color: #806200;
+}
+
+.nav_spacer {
+  flex-grow: 1;
+}

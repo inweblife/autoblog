@@ -129,9 +129,17 @@ export default function KakDaPodgotvya() {
           за да отпишете автомобила от вашето име.
         </p>
 
-        <Link href="/blog/" className={styles.card_link}>
-          Към блога
-        </Link>
+        <nav className={styles.navigation}>
+          <Link href="/blog/documenti-za-da-brakuvate-kola" className={styles.nav_link}>
+            ← Предишен пост
+          </Link>
+          <Link href="/blog/" className={styles.nav_link}>
+            Всички постове
+          </Link>
+          <Link href="/blog/izkupuvane-na-koli-za-skrap" className={styles.nav_link}>
+            Следващ пост →
+          </Link>
+        </nav>
       </section>
     </>
   );

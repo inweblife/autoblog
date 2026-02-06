@@ -196,6 +196,15 @@ export default function PoznaciNaPovredena() {
           напитайте за гарантия, време за монтаж и дали ще получите стара кутия
           назад за използване на части.
         </p>
+
+        <nav className={styles.navigation}>
+          <Link href="/blog/kogato-dvigatela-e-za-smyana" className={styles.nav_link}>
+            ← Предишен пост
+          </Link>
+          <Link href="/blog/" className={styles.nav_link}>
+            Всички постове
+          </Link>
+        </nav>
       </section>
     </>
   );
