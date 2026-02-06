@@ -22,13 +22,33 @@ export const metadata = {
 };
 
 export default function Documenti() {
+  const publishDate = "6 февруари 2026";
+  const readingTime = "4 мин.";
+
   return (
     <>
+      <nav className={styles.breadcrumb}>
+        <Link href="/blog">Блог</Link>
+        <span>/</span>
+        <span>Документи за да бракувате кола</span>
+      </nav>
+
       <main className={styles.container}>
         <div className={styles.cover}>
           <h1 className={styles.title}>Документи за да бракувате кола</h1>
         </div>
       </main>
+
+      <div className={styles.post_meta}>
+        <span className={styles.meta_item}>
+          <span className={styles.meta_icon}>📅</span>
+          {publishDate}
+        </span>
+        <span className={styles.meta_item}>
+          <span className={styles.meta_icon}>⏱️</span>
+          {readingTime}
+        </span>
+      </div>
 
       <section className={styles.section}>
         <h2 className={styles.section_title}>Документи за да бракувате кола</h2>
