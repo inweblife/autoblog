@@ -55,9 +55,9 @@ export default function Documenti() {
           всичко около процедурата по бракуване на автомобил.
         </p>
 
-        <h3 className={styles.section_title}>
+        <h2 className={styles.section_title}>
           Може ли да продадете кола без документи
-        </h3>
+        </h2>
 
         <p className={styles.section_text}>
           Продажбата на превозно средство без документи законно е невъзможна. За
@@ -77,9 +77,9 @@ export default function Documenti() {
           сделки.
         </p>
 
-        <h3 className={styles.section_title}>
+        <h2 className={styles.section_title}>
           Документи за продажба на кола за скрап
-        </h3>
+        </h2>
 
         <p className={styles.section_text}>
           Продажба на автомобил за скрап може да бъде извършена от всеки, който
@@ -101,9 +101,9 @@ export default function Documenti() {
           е рециклирано и няма връщане назад.
         </p>
 
-        <h3 className={styles.section_title}>
+        <h2 className={styles.section_title}>
           Документи за прекратяване на регистрацията
-        </h3>
+        </h2>
 
         <p className={styles.section_text}>
           Прекратяването на регистрацията в КАТ става само лично от собственика

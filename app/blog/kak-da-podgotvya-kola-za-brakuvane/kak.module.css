@@ -25,18 +25,26 @@
 }
 
 .section {
-  display: grid;
-  place-items: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
 }
 
 .section_title {
-  text-align: center;
+  text-align: left;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 28px 0 12px;
+  color: #333;
 }
 
 .section_text {
-  text-align: center;
-  font-size: 1.2rem;
-  max-width: 95%;
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 18px;
 }
 
 .card_link {
@@ -51,11 +59,4 @@
 
 .card_link:hover {
   background-color: #806200;
-}
-
-@media screen and (min-width: 45em) {
-  .section {
-    max-width: 800px;
-    margin: 0 auto;
-  }
 }

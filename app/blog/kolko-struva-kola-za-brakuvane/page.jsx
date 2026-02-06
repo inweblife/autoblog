@@ -52,9 +52,9 @@ export default function Kolko() {
           продажба на стария си автомобил за скрап
         </p>
 
-        <h3 className={styles.section_title}>
+        <h2 className={styles.section_title}>
           Как се оценява автомобил за скрап
-        </h3>
+        </h2>
 
         <p className={styles.section_text}>
           Стойността на кола за бракуване зависи от масата на превозното
@@ -77,9 +77,9 @@ export default function Kolko() {
           държави. И е на първо място съобразена с борсовата цена.
         </p>
 
-        <h3 className={styles.section_title}>
+        <h2 className={styles.section_title}>
           Онлайн оценка при бракуване на кола
-        </h3>
+        </h2>
 
         <p className={styles.section_text}>
           Повечето лицензирани търговци на автомобили за скрап, имат свои
@@ -100,9 +100,9 @@ export default function Kolko() {
           автомобил за бракуване е не повече от 5-10 минути.
         </p>
 
-        <h3 className={styles.section_title}>
+        <h2 className={styles.section_title}>
           Най-добрата цена за автомобил за бракуване
-        </h3>
+        </h2>
 
         <p className={styles.section_text}>
           Някои компании имат изготвени калкулатори за автомобили за скрап.
