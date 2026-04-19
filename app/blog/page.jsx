@@ -239,6 +239,35 @@ export default function Blog() {
                 Прочети още
               </Link>
             </div>
+
+            <div className={styles.card}>
+              <Image
+                src="/koli-za-chasti.webp"
+                alt="изкупуване на коли за части"
+                width={1024}
+                height={768}
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                }}
+              />
+              <Link href="/blog/izkupuvane-na-koli-za-chasti" className={styles.card_title} aria-label="Изкупуване на коли за части – честно за цените">
+                Изкупуване на коли за части – честно за цените
+              </Link>
+              <p className={styles.card_text}>
+                Кога има смисъл{" "}
+                <a href="https://kolazascrap.com/blog/da-prodadete-kolata-si-za-chasti/" target="_blank" rel="noopener noreferrer">
+                  <strong>продажба на кола за части</strong>
+                </a>
+                {" "}и защо инвестицията в ремонти не увеличава стойността на автомобила.
+              </p>
+              <Link
+                href="/blog/izkupuvane-na-koli-za-chasti"
+                className={styles.card_link}
+              >
+                Прочети още
+              </Link>
+            </div>
           </section>
         </section>
       </main>
