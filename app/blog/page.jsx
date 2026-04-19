@@ -207,12 +207,11 @@ export default function Blog() {
                 Признаци на повредена скоростна кутия
               </Link>
               <p className={styles.card_text}>
-                Полезни съвети разпознайте признаци на{" "}
+                Когато трансмисията се счупи и опцията е{" "}
                 <a href="https://carco.bg/blog/skorostna-kutiya-vtora-raka" target="_blank" rel="noopener noreferrer">
-                  <strong>повредена скоростна кутия</strong>
+                  <strong>скоростна кутия втора ръка</strong>
                 </a>
-                . Как да разбете дали проблема е в скоростната кутия, а не в
-                съединителя.
+                . Как да разпознаете проблема и дали е в кутията или в съединителя.
               </p>
               <Link
                 href="/blog/priznaci-na-povreda-skoresna-kutiya"
