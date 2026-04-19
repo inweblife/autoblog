@@ -232,13 +232,13 @@ export default function KakRaboitiKalkulator() {
         </p>
 
         <p className={styles.section_text}>
-          За{" "}
+          При изкупуване на{" "}
           <a
             href="https://kolazascrap.com/koli-za-scrap-sofia/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <strong>Коли за скрап в град София</strong>
+            <strong>коли за скрап в София</strong>
           </a>{" "}
           услугата работи особено бързо – автомобилите се извозват още същия
           ден, максимално оперативно, без излишно чакане. В столицата капацитетът
