@@ -18,8 +18,8 @@ export const metadata = {
     images: [
       {
         url: "https://autoblog-bg.netlify.app/og/oldcar.webp",
-        width: 800,
-        height: 600,
+        width: 1200,
+        height: 630,
         alt: "Изкупуване на коли за скрап",
       },
     ],
