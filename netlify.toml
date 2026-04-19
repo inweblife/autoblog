@@ -1,3 +1,9 @@
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap-static.xml"
+  status = 200
+  force = true
+
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
