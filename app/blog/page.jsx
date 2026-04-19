@@ -227,7 +227,7 @@ export default function Blog() {
               </Link>
               <p className={styles.card_text}>
                 Въведете марка, модел и местонахождение и веднага разберете{" "}
-                <a href="https://kolazascrap.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://kolazascrap.com/blog/online-otsenka-na-kola-za-scrap/" target="_blank" rel="noopener noreferrer">
                   <strong>колко струва колата ви за скрап</strong>
                 </a>
                 .
