@@ -7,20 +7,31 @@ export const metadata = {
   title: "Блог за коли | Autoblog",
   description:
     "Тук ще намерите отговорите на всички въпроси, свързани с ремонти на автомобили, авточасти втора употреба и бракуване на стари коли.",
+  alternates: {
+    canonical: "https://autoblog-bg.netlify.app/blog",
+  },
   openGraph: {
     title: "Блог за коли | Autoblog",
     description:
       "Тук ще намерите отговорите на всички въпроси, свързани с ремонти на автомобили, авточасти втора употреба и бракуване на стари коли.",
-    url: "https://autoblog-bg.netlify.app/blog/",
+    url: "https://autoblog-bg.netlify.app/blog",
+    siteName: "Autoblog",
+    locale: "bg_BG",
     type: "website",
     images: [
       {
         url: "https://autoblog-bg.netlify.app/blog.webp",
         width: 800,
         height: 600,
-        alt: "a car to be scrapped",
+        alt: "Блог за коли – Autoblog",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Блог за коли | Autoblog",
+    description: "Тук ще намерите отговорите на всички въпроси, свързани с ремонти на автомобили, авточасти втора употреба и бракуване на стари коли.",
+    images: ["https://autoblog-bg.netlify.app/blog.webp"],
   },
 };
 

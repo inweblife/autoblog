@@ -5,10 +5,15 @@ import styles from "./about.module.css";
 export const metadata = {
   title: "За нас | Autoblog",
   description: "За нас и защо пишем новини за автомобили, авточасти и бракуване на коли",
+  alternates: {
+    canonical: 'https://autoblog-bg.netlify.app/about',
+  },
   openGraph: {
     title: 'За нас | Autoblog',
     description: 'За нас и защо пишем новини за автомобили, авточасти и бракуване на коли',
-    url: 'https://autoblog-bg.netlify.app/about/',
+    url: 'https://autoblog-bg.netlify.app/about',
+    siteName: 'Autoblog',
+    locale: 'bg_BG',
     type: 'website',
     images: [
       {
@@ -18,6 +23,12 @@ export const metadata = {
         alt: 'a lady read news',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'За нас | Autoblog',
+    description: 'За нас и защо пишем новини за автомобили, авточасти и бракуване на коли',
+    images: ['https://autoblog-bg.netlify.app/about.webp'],
   },
 };
 

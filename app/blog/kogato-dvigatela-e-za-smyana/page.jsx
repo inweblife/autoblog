@@ -6,20 +6,31 @@ export const metadata = {
   title: "Когато двигателя е за смяна",
   description:
     "Полезни съвети когато двигателя е за смяна. Кога се налага смяна, как да изберете надежден двигател втора употреба.",
+  alternates: {
+    canonical: "https://autoblog-bg.netlify.app/blog/kogato-dvigatela-e-za-smyana",
+  },
   openGraph: {
     title: "Когато двигателя е за смяна",
     description:
       "Полезни съвети когато двигателя е за смяна. Кога се налага смяна, как да изберете надежден двигател втора употреба.",
     url: "https://autoblog-bg.netlify.app/blog/kogato-dvigatela-e-za-smyana",
-    type: "website",
+    siteName: "Autoblog",
+    locale: "bg_BG",
+    type: "article",
     images: [
       {
         url: "https://autoblog-bg.netlify.app/engine.webp",
         width: 800,
         height: 600,
-        alt: "engine replacement",
+        alt: "Когато двигателя е за смяна",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Когато двигателя е за смяна",
+    description: "Полезни съвети когато двигателя е за смяна. Кога се налага смяна, как да изберете надежден двигател втора употреба.",
+    images: ["https://autoblog-bg.netlify.app/engine.webp"],
   },
 };
 

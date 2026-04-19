@@ -5,19 +5,30 @@ import styles from "./kak.module.css";
 export const metadata = {
   title: "Как да подготвя кола за бракуване",
   description: "Полезни съвети за подготовка на автомобил преди бракуване",
+  alternates: {
+    canonical: "https://autoblog-bg.netlify.app/blog/kak-da-podgotvya-kola-za-brakuvane",
+  },
   openGraph: {
     title: "Как да подготвя кола за бракуване",
     description: "Полезни съвети за подготовка на автомобил преди бракуване",
     url: "https://autoblog-bg.netlify.app/blog/kak-da-podgotvya-kola-za-brakuvane",
-    type: "website",
+    siteName: "Autoblog",
+    locale: "bg_BG",
+    type: "article",
     images: [
       {
         url: "https://autoblog-bg.netlify.app/carscrap.webp",
         width: 800,
         height: 600,
-        alt: "car preparation",
+        alt: "Как да подготвя кола за бракуване",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Как да подготвя кола за бракуване",
+    description: "Полезни съвети за подготовка на автомобил преди бракуване",
+    images: ["https://autoblog-bg.netlify.app/carscrap.webp"],
   },
 };
 

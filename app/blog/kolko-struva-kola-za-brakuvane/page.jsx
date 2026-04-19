@@ -5,19 +5,30 @@ import styles from "./kolko.module.css";
 export const metadata = {
   title: "Колко струва кола за бракуване",
   description: "Колко струва кола за бракуване, как да спечелите повече.",
+  alternates: {
+    canonical: "https://autoblog-bg.netlify.app/blog/kolko-struva-kola-za-brakuvane",
+  },
   openGraph: {
     title: "Колко струва кола за бракуване",
     description: "Колко струва кола за бракуване, как да спечелите повече.",
     url: "https://autoblog-bg.netlify.app/blog/kolko-struva-kola-za-brakuvane",
-    type: "website",
+    siteName: "Autoblog",
+    locale: "bg_BG",
+    type: "article",
     images: [
       {
         url: "https://autoblog-bg.netlify.app/carscrap.webp",
         width: 800,
         height: 600,
-        alt: "junk car",
+        alt: "Колко струва кола за бракуване",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Колко струва кола за бракуване",
+    description: "Колко струва кола за бракуване, как да спечелите повече.",
+    images: ["https://autoblog-bg.netlify.app/carscrap.webp"],
   },
 };
 

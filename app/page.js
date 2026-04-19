@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Head from "next/head";
 import Link from "next/link";
 
 import styles from "./page.module.css";
@@ -8,7 +7,31 @@ export const metadata = {
   title: "Autoblog | Новини за коли",
   description:
     "Новини за автомобили, авточасти втора употреба и бракуване на коли. Ценни съвети за всеки фен на колите, който иска да е в крак с модата",
-  keywords: ["Авточасти втора употреба", "Бракуване на коли", "Новини за коли"],
+  alternates: {
+    canonical: 'https://autoblog-bg.netlify.app/',
+  },
+  openGraph: {
+    title: 'Autoblog | Новини за коли',
+    description: 'Новини за автомобили, авточасти втора употреба и бракуване на коли.',
+    url: 'https://autoblog-bg.netlify.app/',
+    siteName: 'Autoblog',
+    locale: 'bg_BG',
+    type: 'website',
+    images: [
+      {
+        url: 'https://autoblog-bg.netlify.app/cover.webp',
+        width: 800,
+        height: 600,
+        alt: 'Autoblog - новини за коли',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Autoblog | Новини за коли',
+    description: 'Новини за автомобили, авточасти втора употреба и бракуване на коли.',
+    images: ['https://autoblog-bg.netlify.app/cover.webp'],
+  },
 };
 
 export default function Home() {

@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://autoblog-bg.netlify.app/',
+    sitemap: 'https://autoblog-bg.netlify.app/sitemap.xml',
   }
 }
 

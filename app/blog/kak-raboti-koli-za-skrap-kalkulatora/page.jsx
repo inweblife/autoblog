@@ -6,12 +6,17 @@ export const metadata = {
   title: "Как работи коли за скрап калкулатора",
   description:
     "Как работи коли за скрап калкулатора – въведете марка, модел и местонахождение и веднага разберете цената на вашия автомобил при бракуване.",
+  alternates: {
+    canonical: "https://autoblog-bg.netlify.app/blog/kak-raboti-koli-za-skrap-kalkulatora",
+  },
   openGraph: {
     title: "Как работи коли за скрап калкулатора",
     description:
       "Как работи коли за скрап калкулатора – въведете марка, модел и местонахождение и веднага разберете цената на вашия автомобил при бракуване.",
     url: "https://autoblog-bg.netlify.app/blog/kak-raboti-koli-za-skrap-kalkulatora",
-    type: "website",
+    siteName: "Autoblog",
+    locale: "bg_BG",
+    type: "article",
     images: [
       {
         url: "https://autoblog-bg.netlify.app/calculator.webp",
@@ -20,6 +25,12 @@ export const metadata = {
         alt: "коли за скрап калкулатор",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Как работи коли за скрап калкулатора",
+    description: "Как работи коли за скрап калкулатора – въведете марка, модел и местонахождение и веднага разберете цената на вашия автомобил при бракуване.",
+    images: ["https://autoblog-bg.netlify.app/calculator.webp"],
   },
 };
 

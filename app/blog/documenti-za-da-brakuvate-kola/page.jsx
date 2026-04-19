@@ -5,19 +5,30 @@ import styles from "./documenti.module.css";
 export const metadata = {
   title: "Документи за да бракувате кола",
   description: "Какви са всички необходими документи, за да бракувате кола",
+  alternates: {
+    canonical: "https://autoblog-bg.netlify.app/blog/documenti-za-da-brakuvate-kola",
+  },
   openGraph: {
     title: "Документи за да бракувате кола",
     description: "Какви са всички необходими документи, за да бракувате кола",
     url: "https://autoblog-bg.netlify.app/blog/documenti-za-da-brakuvate-kola",
-    type: "website",
+    siteName: "Autoblog",
+    locale: "bg_BG",
+    type: "article",
     images: [
       {
         url: "https://autoblog-bg.netlify.app/documenti.webp",
         width: 800,
         height: 600,
-        alt: "junk cars",
+        alt: "Документи за бракуване на кола",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Документи за да бракувате кола",
+    description: "Какви са всички необходими документи, за да бракувате кола",
+    images: ["https://autoblog-bg.netlify.app/documenti.webp"],
   },
 };
 

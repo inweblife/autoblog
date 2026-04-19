@@ -16,19 +16,33 @@ export const metadata = {
   other: {
     'google-site-verification': '_9S3dRyfOj_BuYTcSFmz14Fm5vFqv5XMJGFPNpmlo_4',
   },
+  alternates: {
+    canonical: 'https://autoblog-bg.netlify.app/',
+    types: {
+      'application/rss+xml': 'https://autoblog-bg.netlify.app/feed.xml',
+    },
+  },
   openGraph: {
     title: 'Autoblog',
     description: 'Новини за автомобили, авточасти и бракуване на коли',
     url: 'https://autoblog-bg.netlify.app/',
+    siteName: 'Autoblog',
+    locale: 'bg_BG',
     type: 'website',
     images: [
       {
         url: 'https://autoblog-bg.netlify.app/cover.webp',
         width: 800,
         height: 600,
-        alt: 'car scrap',
+        alt: 'Autoblog - новини за коли',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Autoblog',
+    description: 'Новини за автомобили, авточасти и бракуване на коли',
+    images: ['https://autoblog-bg.netlify.app/cover.webp'],
   },
 };  
 export default function RootLayout({ children }) {

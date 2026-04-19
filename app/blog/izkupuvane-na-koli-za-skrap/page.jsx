@@ -5,19 +5,30 @@ import styles from "./izkupuvane.module.css";
 export const metadata = {
   title: "Изкупуване на коли за скрап",
   description: "Как работи процесът на изкупуване на коли за скрап",
+  alternates: {
+    canonical: "https://autoblog-bg.netlify.app/blog/izkupuvane-na-koli-za-skrap",
+  },
   openGraph: {
     title: "Изкупуване на коли за скрап",
     description: "Как работи процесът на изкупуване на коли за скрап",
     url: "https://autoblog-bg.netlify.app/blog/izkupuvane-na-koli-za-skrap",
-    type: "website",
+    siteName: "Autoblog",
+    locale: "bg_BG",
+    type: "article",
     images: [
       {
         url: "https://autoblog-bg.netlify.app/oldcar.webp",
         width: 800,
         height: 600,
-        alt: "old car scrapping",
+        alt: "Изкупуване на коли за скрап",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Изкупуване на коли за скрап",
+    description: "Как работи процесът на изкупуване на коли за скрап",
+    images: ["https://autoblog-bg.netlify.app/oldcar.webp"],
   },
 };
 
