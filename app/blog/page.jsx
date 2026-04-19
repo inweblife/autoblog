@@ -256,7 +256,7 @@ export default function Blog() {
               </Link>
               <p className={styles.card_text}>
                 Кога има смисъл{" "}
-                <a href="https://kolazascrap.com/blog/da-prodadete-kolata-si-za-chasti/" target="_blank" rel="noopener noreferrer">
+                <a href="https://carco.bg/blog/izkupuvane-na-koli-za-chasti" target="_blank" rel="noopener noreferrer">
                   <strong>продажба на кола за части</strong>
                 </a>
                 {" "}и защо инвестицията в ремонти не увеличава стойността на автомобила.
