@@ -19,7 +19,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://autoblog-bg.netlify.app/gearbox.webp",
+        url: "https://autoblog-bg.netlify.app/og/gearbox.webp",
         width: 800,
         height: 600,
         alt: "Признаци на повредена скоростна кутия",
@@ -30,7 +30,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Признаци на повредена скоростна кутия",
     description: "Полезни съвети разпознайте признаци на повредена скоростна кутия. Как да разбете дали проблема е в скоростната кутия, а не в съединителя.",
-    images: ["https://autoblog-bg.netlify.app/gearbox.webp"],
+    images: ["https://autoblog-bg.netlify.app/og/gearbox.webp"],
   },
 };
 

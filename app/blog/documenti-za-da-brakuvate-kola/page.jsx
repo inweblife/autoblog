@@ -17,7 +17,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://autoblog-bg.netlify.app/documenti.webp",
+        url: "https://autoblog-bg.netlify.app/og/documenti.webp",
         width: 800,
         height: 600,
         alt: "Документи за бракуване на кола",
@@ -28,7 +28,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Документи за да бракувате кола",
     description: "Какви са всички необходими документи, за да бракувате кола",
-    images: ["https://autoblog-bg.netlify.app/documenti.webp"],
+    images: ["https://autoblog-bg.netlify.app/og/documenti.webp"],
   },
 };
 

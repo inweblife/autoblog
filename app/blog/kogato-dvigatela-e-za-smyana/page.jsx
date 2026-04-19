@@ -19,7 +19,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://autoblog-bg.netlify.app/engine.webp",
+        url: "https://autoblog-bg.netlify.app/og/engine.webp",
         width: 800,
         height: 600,
         alt: "Когато двигателя е за смяна",
@@ -30,7 +30,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Когато двигателя е за смяна",
     description: "Полезни съвети когато двигателя е за смяна. Кога се налага смяна, как да изберете надежден двигател втора употреба.",
-    images: ["https://autoblog-bg.netlify.app/engine.webp"],
+    images: ["https://autoblog-bg.netlify.app/og/engine.webp"],
   },
 };
 

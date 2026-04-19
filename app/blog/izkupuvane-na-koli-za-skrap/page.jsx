@@ -17,7 +17,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://autoblog-bg.netlify.app/oldcar.webp",
+        url: "https://autoblog-bg.netlify.app/og/oldcar.webp",
         width: 800,
         height: 600,
         alt: "Изкупуване на коли за скрап",
@@ -28,7 +28,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Изкупуване на коли за скрап",
     description: "Как работи процесът на изкупуване на коли за скрап",
-    images: ["https://autoblog-bg.netlify.app/oldcar.webp"],
+    images: ["https://autoblog-bg.netlify.app/og/oldcar.webp"],
   },
 };
 

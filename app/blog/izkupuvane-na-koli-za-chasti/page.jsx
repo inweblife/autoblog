@@ -19,7 +19,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://autoblog-bg.netlify.app/koli-za-chasti.webp",
+        url: "https://autoblog-bg.netlify.app/og/koli-za-chasti.webp",
         width: 800,
         height: 600,
         alt: "изкупуване на коли за части",
@@ -30,7 +30,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Изкупуване на коли за части – честно за цените",
     description: "Продажба на кола за части или за скрап – кога има смисъл и как се формира реалната цена.",
-    images: ["https://autoblog-bg.netlify.app/koli-za-chasti.webp"],
+    images: ["https://autoblog-bg.netlify.app/og/koli-za-chasti.webp"],
   },
 };
 

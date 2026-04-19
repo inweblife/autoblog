@@ -20,7 +20,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://autoblog-bg.netlify.app/blog.webp",
+        url: "https://autoblog-bg.netlify.app/og/blog.webp",
         width: 800,
         height: 600,
         alt: "Блог за коли – Autoblog",
@@ -31,7 +31,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Блог за коли | Autoblog",
     description: "Тук ще намерите отговорите на всички въпроси, свързани с ремонти на автомобили, авточасти втора употреба и бракуване на стари коли.",
-    images: ["https://autoblog-bg.netlify.app/blog.webp"],
+    images: ["https://autoblog-bg.netlify.app/og/blog.webp"],
   },
 };
 

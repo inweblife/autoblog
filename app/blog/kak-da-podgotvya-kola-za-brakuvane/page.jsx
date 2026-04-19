@@ -17,7 +17,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://autoblog-bg.netlify.app/carscrap.webp",
+        url: "https://autoblog-bg.netlify.app/og/carscrap.webp",
         width: 800,
         height: 600,
         alt: "Как да подготвя кола за бракуване",
@@ -28,7 +28,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Как да подготвя кола за бракуване",
     description: "Полезни съвети за подготовка на автомобил преди бракуване",
-    images: ["https://autoblog-bg.netlify.app/carscrap.webp"],
+    images: ["https://autoblog-bg.netlify.app/og/carscrap.webp"],
   },
 };
 

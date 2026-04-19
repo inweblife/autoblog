@@ -17,7 +17,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://autoblog-bg.netlify.app/about.webp',
+        url: 'https://autoblog-bg.netlify.app/og/about.webp',
         width: 800,
         height: 600,
         alt: 'a lady read news',
@@ -28,7 +28,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'За нас | Autoblog',
     description: 'За нас и защо пишем новини за автомобили, авточасти и бракуване на коли',
-    images: ['https://autoblog-bg.netlify.app/about.webp'],
+    images: ['https://autoblog-bg.netlify.app/og/about.webp'],
   },
 };
 

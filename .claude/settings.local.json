@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -i 's|autoblog-bg.netlify.app/about\\\\.webp|autoblog-bg.netlify.app/og/about.webp|g' app/about/page.jsx)",
+      "Bash(sed -i 's|autoblog-bg.netlify.app/documenti\\\\.webp|autoblog-bg.netlify.app/og/documenti.webp|g' app/blog/documenti-za-da-brakuvate-kola/page.jsx)",
+      "Bash(sed -i 's|autoblog-bg.netlify.app/koli-za-chasti\\\\.webp|autoblog-bg.netlify.app/og/koli-za-chasti.webp|g' app/blog/izkupuvane-na-koli-za-chasti/page.jsx)",
+      "Bash(sed -i 's|autoblog-bg.netlify.app/oldcar\\\\.webp|autoblog-bg.netlify.app/og/oldcar.webp|g' app/blog/izkupuvane-na-koli-za-skrap/page.jsx)",
+      "Bash(sed -i 's|autoblog-bg.netlify.app/carscrap\\\\.webp|autoblog-bg.netlify.app/og/carscrap.webp|g' app/blog/kak-da-podgotvya-kola-za-brakuvane/page.jsx)"
+    ]
+  }
+}

@@ -19,7 +19,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://autoblog-bg.netlify.app/calculator.webp",
+        url: "https://autoblog-bg.netlify.app/og/calculator.webp",
         width: 800,
         height: 600,
         alt: "коли за скрап калкулатор",
@@ -30,7 +30,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Как работи коли за скрап калкулатора",
     description: "Как работи коли за скрап калкулатора – въведете марка, модел и местонахождение и веднага разберете цената на вашия автомобил при бракуване.",
-    images: ["https://autoblog-bg.netlify.app/calculator.webp"],
+    images: ["https://autoblog-bg.netlify.app/og/calculator.webp"],
   },
 };
 

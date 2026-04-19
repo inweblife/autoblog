@@ -17,7 +17,7 @@ export const metadata = {
     type: "article",
     images: [
       {
-        url: "https://autoblog-bg.netlify.app/carscrap.webp",
+        url: "https://autoblog-bg.netlify.app/og/carscrap.webp",
         width: 800,
         height: 600,
         alt: "Колко струва кола за бракуване",
@@ -28,7 +28,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Колко струва кола за бракуване",
     description: "Колко струва кола за бракуване, как да спечелите повече.",
-    images: ["https://autoblog-bg.netlify.app/carscrap.webp"],
+    images: ["https://autoblog-bg.netlify.app/og/carscrap.webp"],
   },
 };
 
