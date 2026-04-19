@@ -1,4 +1,7 @@
 [[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[[plugins]]
   package = "netlify-plugin-submit-sitemap"
 
   [plugins.inputs]
