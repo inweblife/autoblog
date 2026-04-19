@@ -210,6 +210,35 @@ export default function Blog() {
                 Прочети още
               </Link>
             </div>
+
+            <div className={styles.card}>
+              <Image
+                src="/calculator.webp"
+                alt="коли за скрап калкулатор"
+                width={1024}
+                height={768}
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                }}
+              />
+              <Link href="/blog/kak-raboti-koli-za-skrap-kalkulatora" className={styles.card_title} aria-label="Как работи коли за скрап калкулатора">
+                Как работи коли за скрап калкулатора
+              </Link>
+              <p className={styles.card_text}>
+                Въведете марка, модел и местонахождение и веднага разберете{" "}
+                <a href="https://kolazascrap.com/" target="_blank" rel="noopener noreferrer">
+                  <strong>колко струва колата ви за скрап</strong>
+                </a>
+                .
+              </p>
+              <Link
+                href="/blog/kak-raboti-koli-za-skrap-kalkulatora"
+                className={styles.card_link}
+              >
+                Прочети още
+              </Link>
+            </div>
           </section>
         </section>
       </main>
