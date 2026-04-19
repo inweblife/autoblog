@@ -52,6 +52,64 @@ export default function Blog() {
           <section className={styles.section_one}>
             <div className={styles.card}>
               <Image
+                src="/koli-za-chasti.webp"
+                alt="изкупуване на коли за части"
+                width={1024}
+                height={768}
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                }}
+              />
+              <Link href="/blog/izkupuvane-na-koli-za-chasti" className={styles.card_title} aria-label="Изкупуване на коли за части – честно за цените">
+                Изкупуване на коли за части – честно за цените
+              </Link>
+              <p className={styles.card_text}>
+                Кога има смисъл{" "}
+                <a href="https://carco.bg/blog/izkupuvane-na-koli-za-chasti" target="_blank" rel="noopener noreferrer">
+                  <strong>продажба на кола за части</strong>
+                </a>
+                {" "}и защо инвестицията в ремонти не увеличава стойността на автомобила.
+              </p>
+              <Link
+                href="/blog/izkupuvane-na-koli-za-chasti"
+                className={styles.card_link}
+              >
+                Прочети още
+              </Link>
+            </div>
+
+            <div className={styles.card}>
+              <Image
+                src="/calculator.webp"
+                alt="коли за скрап калкулатор"
+                width={1024}
+                height={768}
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                }}
+              />
+              <Link href="/blog/kak-raboti-koli-za-skrap-kalkulatora" className={styles.card_title} aria-label="Как работи коли за скрап калкулатора">
+                Как работи коли за скрап калкулатора
+              </Link>
+              <p className={styles.card_text}>
+                Въведете марка, модел и местонахождение и веднага разберете{" "}
+                <a href="https://kolazascrap.com/blog/online-otsenka-na-kola-za-scrap/" target="_blank" rel="noopener noreferrer">
+                  <strong>колко струва колата ви за скрап</strong>
+                </a>
+                .
+              </p>
+              <Link
+                href="/blog/kak-raboti-koli-za-skrap-kalkulatora"
+                className={styles.card_link}
+              >
+                Прочети още
+              </Link>
+            </div>
+
+            <div className={styles.card}>
+              <Image
                 src="/carscrap.webp"
                 alt="car scrap"
                 width={1024}
@@ -215,64 +273,6 @@ export default function Blog() {
               </p>
               <Link
                 href="/blog/priznaci-na-povreda-skoresna-kutiya"
-                className={styles.card_link}
-              >
-                Прочети още
-              </Link>
-            </div>
-
-            <div className={styles.card}>
-              <Image
-                src="/calculator.webp"
-                alt="коли за скрап калкулатор"
-                width={1024}
-                height={768}
-                style={{
-                  maxWidth: "100%",
-                  height: "auto",
-                }}
-              />
-              <Link href="/blog/kak-raboti-koli-za-skrap-kalkulatora" className={styles.card_title} aria-label="Как работи коли за скрап калкулатора">
-                Как работи коли за скрап калкулатора
-              </Link>
-              <p className={styles.card_text}>
-                Въведете марка, модел и местонахождение и веднага разберете{" "}
-                <a href="https://kolazascrap.com/blog/online-otsenka-na-kola-za-scrap/" target="_blank" rel="noopener noreferrer">
-                  <strong>колко струва колата ви за скрап</strong>
-                </a>
-                .
-              </p>
-              <Link
-                href="/blog/kak-raboti-koli-za-skrap-kalkulatora"
-                className={styles.card_link}
-              >
-                Прочети още
-              </Link>
-            </div>
-
-            <div className={styles.card}>
-              <Image
-                src="/koli-za-chasti.webp"
-                alt="изкупуване на коли за части"
-                width={1024}
-                height={768}
-                style={{
-                  maxWidth: "100%",
-                  height: "auto",
-                }}
-              />
-              <Link href="/blog/izkupuvane-na-koli-za-chasti" className={styles.card_title} aria-label="Изкупуване на коли за части – честно за цените">
-                Изкупуване на коли за части – честно за цените
-              </Link>
-              <p className={styles.card_text}>
-                Кога има смисъл{" "}
-                <a href="https://carco.bg/blog/izkupuvane-na-koli-za-chasti" target="_blank" rel="noopener noreferrer">
-                  <strong>продажба на кола за части</strong>
-                </a>
-                {" "}и защо инвестицията в ремонти не увеличава стойността на автомобила.
-              </p>
-              <Link
-                href="/blog/izkupuvane-na-koli-za-chasti"
                 className={styles.card_link}
               >
                 Прочети още
