@@ -3,14 +3,14 @@ import Link from "next/link";
 import styles from "./documenti.module.css";
 
 export const metadata = {
-  title: "Документи за да бракувате кола",
-  description: "Какви са всички необходими документи, за да бракувате кола",
+  title: "Документи за да бракувате кола | Autoblog",
+  description: "Какви са необходимите документи за бракуване на кола? Пълно ръководство за продажба на скрап и прекратяване на регистрацията в КАТ без грешки.",
   alternates: {
     canonical: "https://autoblog-bg.netlify.app/blog/documenti-za-da-brakuvate-kola",
   },
   openGraph: {
-    title: "Документи за да бракувате кола",
-    description: "Какви са всички необходими документи, за да бракувате кола",
+    title: "Документи за да бракувате кола | Autoblog",
+    description: "Какви са необходимите документи за бракуване на кола? Пълно ръководство за продажба на скрап и прекратяване на регистрацията в КАТ без грешки.",
     url: "https://autoblog-bg.netlify.app/blog/documenti-za-da-brakuvate-kola",
     siteName: "Autoblog",
     locale: "bg_BG",
@@ -26,8 +26,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Документи за да бракувате кола",
-    description: "Какви са всички необходими документи, за да бракувате кола",
+    title: "Документи за да бракувате кола | Autoblog",
+    description: "Какви са необходимите документи за бракуване на кола? Пълно ръководство за продажба на скрап и прекратяване на регистрацията в КАТ без грешки.",
     images: ["https://autoblog-bg.netlify.app/og/documenti.webp"],
   },
 };

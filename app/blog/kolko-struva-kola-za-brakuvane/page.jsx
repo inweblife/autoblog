@@ -3,14 +3,14 @@ import Link from "next/link";
 import styles from "./kolko.module.css";
 
 export const metadata = {
-  title: "Колко струва кола за бракуване",
-  description: "Колко струва кола за бракуване, как да спечелите повече.",
+  title: "Колко струва кола за бракуване | Autoblog",
+  description: "Колко струва кола за бракуване? Разберете как се формира цената при скрап, от какво зависи и как да получите максималната сума за стария си автомобил.",
   alternates: {
     canonical: "https://autoblog-bg.netlify.app/blog/kolko-struva-kola-za-brakuvane",
   },
   openGraph: {
-    title: "Колко струва кола за бракуване",
-    description: "Колко струва кола за бракуване, как да спечелите повече.",
+    title: "Колко струва кола за бракуване | Autoblog",
+    description: "Колко струва кола за бракуване? Разберете как се формира цената при скрап, от какво зависи и как да получите максималната сума за стария си автомобил.",
     url: "https://autoblog-bg.netlify.app/blog/kolko-struva-kola-za-brakuvane",
     siteName: "Autoblog",
     locale: "bg_BG",
@@ -20,14 +20,14 @@ export const metadata = {
         url: "https://autoblog-bg.netlify.app/og/carscrap.webp",
         width: 1200,
         height: 630,
-        alt: "Колко струва кола за бракуване",
+        alt: "Колко струва кола за бракуване | Autoblog",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Колко струва кола за бракуване",
-    description: "Колко струва кола за бракуване, как да спечелите повече.",
+    title: "Колко струва кола за бракуване | Autoblog",
+    description: "Колко струва кола за бракуване? Разберете как се формира цената при скрап, от какво зависи и как да получите максималната сума за стария си автомобил.",
     images: ["https://autoblog-bg.netlify.app/og/carscrap.webp"],
   },
 };

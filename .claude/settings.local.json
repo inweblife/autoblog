@@ -5,7 +5,11 @@
       "Bash(sed -i 's|autoblog-bg.netlify.app/documenti\\\\.webp|autoblog-bg.netlify.app/og/documenti.webp|g' app/blog/documenti-za-da-brakuvate-kola/page.jsx)",
       "Bash(sed -i 's|autoblog-bg.netlify.app/koli-za-chasti\\\\.webp|autoblog-bg.netlify.app/og/koli-za-chasti.webp|g' app/blog/izkupuvane-na-koli-za-chasti/page.jsx)",
       "Bash(sed -i 's|autoblog-bg.netlify.app/oldcar\\\\.webp|autoblog-bg.netlify.app/og/oldcar.webp|g' app/blog/izkupuvane-na-koli-za-skrap/page.jsx)",
-      "Bash(sed -i 's|autoblog-bg.netlify.app/carscrap\\\\.webp|autoblog-bg.netlify.app/og/carscrap.webp|g' app/blog/kak-da-podgotvya-kola-za-brakuvane/page.jsx)"
+      "Bash(sed -i 's|autoblog-bg.netlify.app/carscrap\\\\.webp|autoblog-bg.netlify.app/og/carscrap.webp|g' app/blog/kak-da-podgotvya-kola-za-brakuvane/page.jsx)",
+      "Bash(sed -i 's|title: \"Колко струва кола за бракуване\",|title: \"Колко струва кола за бракуване | Autoblog\",|g' app/blog/kolko-struva-kola-za-brakuvane/page.jsx)",
+      "Bash(sed -i 's|description: \"Колко струва кола за бракуване, как да спечелите повече.\",|description: \"Колко струва кола за бракуване? Разберете как се формира цената при скрап, от какво зависи и как да получите максималната сума за стария си автомобил.\",|g' app/blog/kolko-struva-kola-za-brakuvane/page.jsx)",
+      "Bash(python3 -c ' *)",
+      "Bash(node -e ' *)"
     ]
   }
 }
