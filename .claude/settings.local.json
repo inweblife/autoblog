@@ -9,7 +9,8 @@
       "Bash(sed -i 's|title: \"Колко струва кола за бракуване\",|title: \"Колко струва кола за бракуване | Autoblog\",|g' app/blog/kolko-struva-kola-za-brakuvane/page.jsx)",
       "Bash(sed -i 's|description: \"Колко струва кола за бракуване, как да спечелите повече.\",|description: \"Колко струва кола за бракуване? Разберете как се формира цената при скрап, от какво зависи и как да получите максималната сума за стария си автомобил.\",|g' app/blog/kolko-struva-kola-za-brakuvane/page.jsx)",
       "Bash(python3 -c ' *)",
-      "Bash(node -e ' *)"
+      "Bash(node -e ' *)",
+      "Bash(npm run *)"
     ]
   }
 }
