@@ -1,4 +1,4 @@
-import { posts, SITE_URL } from "@/lib/posts";
+import { posts, SITE_URL } from "../lib/posts";
 
 export default function sitemap() {
   const postUrls = posts.map((post) => ({
