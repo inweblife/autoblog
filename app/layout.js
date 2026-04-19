@@ -17,7 +17,6 @@ export const metadata = {
     'google-site-verification': '_9S3dRyfOj_BuYTcSFmz14Fm5vFqv5XMJGFPNpmlo_4',
   },
   alternates: {
-    canonical: 'https://autoblog-bg.netlify.app/',
     types: {
       'application/rss+xml': 'https://autoblog-bg.netlify.app/feed.xml',
     },

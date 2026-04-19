@@ -124,7 +124,7 @@ export default function Blog() {
               </Link>
               <p className={styles.card_text}>
                 Искаете да знаете{" "}
-                <a href="https://kolazascrap.com/blog/kolko-struva-kola-za-scrap/">
+                <a href="https://kolazascrap.com/blog/kolko-struva-kola-za-scrap/" target="_blank" rel="noopener noreferrer">
                   <strong>колко струва кола за скрап</strong>
                 </a>
                 , как да спечелите повече.
@@ -153,7 +153,7 @@ export default function Blog() {
               </Link>
               <p className={styles.card_text}>
                 Какви са всички необходими документи, за да{" "}
-                <a href="https://kolazascrap.com/blog/brakuvane-na-avtomobil/">
+                <a href="https://kolazascrap.com/blog/brakuvane-na-avtomobil/" target="_blank" rel="noopener noreferrer">
                   <strong>бракувате автомобил</strong>
                 </a>
                 .
