@@ -157,6 +157,15 @@ export default function Documenti() {
           превозно средство за следващата.
         </p>
 
+        <p className={styles.section_text}>
+          Преди да се стигне до документите, е добре да сте наясно и с
+          практическите стъпки —{" "}
+          <Link href="/blog/kak-da-podgotvya-kola-za-brakuvane">
+            <strong>как да подготвите кола за бракуване</strong>
+          </Link>{" "}
+          така, че процесът да мине гладко и без забавяния.
+        </p>
+
         <nav className={styles.navigation}>
           <Link href="/blog/kolko-struva-kola-za-brakuvane" className={styles.nav_link}>
             ← Предишен пост
