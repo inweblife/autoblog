@@ -175,7 +175,7 @@ export default function Kolko() {
           за нейното предаване. Първата стъпка към вземането на правилно
           решение е да разберете реалната ѝ цена в момента – за целта можете
           да използвате онлайн{" "}
-          <a href="https://inweblife.vercel.app/ads-without-seo" target="_blank" rel="noopener noreferrer">
+          <a href="https://kolazascrap.com/" target="_blank" rel="noopener noreferrer">
             <strong>коли за скрап калкулатор</strong>
           </a>
           , който ще ви даде бърза ориентировъчна представа за сумата, която
