@@ -66,8 +66,8 @@ export default function Documenti() {
         <p className={styles.section_text}>
           Какви са необходимите{" "}
           <a href="https://kolazascrap.com/blog/documenti-za-brakuvane-na-kola/" target="_blank" rel="noopener noreferrer">
-            <strong>документи за да бракувате кола?!</strong>
-          </a>{" "}
+            <strong>документи за бракуване на кола</strong>
+          </a>?{" "}
           Това е първият въпрос, който идва на ум на всеки, който е решил, че е
           дошло времето да рециклира стария си автомобил. Объркването идва от
           там, че всъщност в този въпрос се състоят цели две процедури - едната
@@ -83,11 +83,7 @@ export default function Documenti() {
           Дерегистрацията на моторно превозно средство става по строго спазвана
           процедура, за да бъде свалено от отчет от името на собственика. Затова
           и в тази публикация ще се опитаме максимално подробно да разкажем
-          всичко около необходимите{" "}
-          <a href="https://kolazascrap.com/blog/documenti-za-brakuvane-na-kola/" target="_blank" rel="noopener noreferrer">
-            <strong>документи за бракуване на кола</strong>
-          </a>{" "}
-          и процедурата по дерегистрация.
+          всичко около необходимите документи за бракуване на кола и процедурата по дерегистрация.
         </p>
 
         <h2 className={styles.section_title}>
