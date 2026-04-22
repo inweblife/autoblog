@@ -64,7 +64,9 @@ export default function Kolko() {
       <section className={styles.section}>
         <h2 className={styles.section_title}>Колко струва кола за бракуване</h2>
         <p className={styles.section_text}>
-          Колко струва кола за бракуване?! Всеки решил да продаде автомобил за
+          <a href="https://kolazascrap.com/blog/kolko-struva-brakuvane-na-kola/" target="_blank" rel="noopener noreferrer">
+            <strong>Колко струва кола за бракуване</strong>
+          </a>?! Всеки решил да продаде автомобил за
           скрап търси отговорът на този въпрос. Това е важно за хората, които се
           разделят с носталгия със стария си автомобил. В годините тези
           собственици са вложили средства в поддръжката на превозното си
