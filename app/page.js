@@ -54,7 +54,11 @@ export default function Home() {
             <Link href="https://carco.bg/blog/avtomorga-ili-online-magazin-za-avtochasti-vtora-raka">
               <strong>авточасти втора употреба</strong>
             </Link>{" "}
-            и др.
+            и др. За актуални{" "}
+            <a href="https://inweblife.pages.dev/" target="_blank" rel="noopener noreferrer">
+              <strong>новини за автомобили</strong>
+            </a>
+            {" "}от цял свят следете и нашите партньорски източници.
           </p>
 
           <h3 className={styles.section_title}>Добре дошли в Автоблог</h3>
