@@ -1,4 +1,4 @@
-import { Inter, Rye, Poppins, Rubik } from "next/font/google";
+import { Inter, Rye, Poppins } from "next/font/google";
 import "./globals.css";
 
 //components
@@ -8,7 +8,6 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const rye = Rye({ subsets: ["latin"], weight: "400", variable: "--font-rye" });
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-poppins" });
-const rubik = Rubik({ subsets: ["latin"], variable: "--font-rubik" });
 
 export const metadata = {
   title: "Autoblog",
@@ -50,7 +49,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="bg">
-      <body className={`${inter.variable} ${rye.variable} ${poppins.variable} ${rubik.variable}`}>
+      <body className={`${inter.variable} ${rye.variable} ${poppins.variable}`}>
         <Navbar />
         {children}
         <Footer />
