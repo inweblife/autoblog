@@ -1,4 +1,5 @@
 import { Inter, Rye, Poppins } from "next/font/google";
+import { Script } from "next/script";
 import "./globals.css";
 
 //components
@@ -53,6 +54,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer />
+        <Script src="https://analytics.ahrefs.com/analytics.js" data-key="qA+9oNpqAVpV17dz99iDmw" async />
       </body>
     </html>
   );
