@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import styles from "./documenti.module.css";
+import { posts } from "../../../lib/posts";
 
 export const metadata = {
   title: "Документи за да бракувате кола | Autoblog",
@@ -35,6 +36,11 @@ export const metadata = {
 export default function Documenti() {
   const publishDate = "6 февруари 2026";
   const readingTime = "4 мин.";
+
+  const currentSlug = 'documenti-za-da-brakuvate-kola'
+  const currentIndex = posts.findIndex(post => post.slug === currentSlug)
+  const prevPost = currentIndex > 0 ? posts[currentIndex - 1] : null
+  const nextPost = currentIndex < posts.length - 1 ? posts[currentIndex + 1] : null
 
   return (
     <>
@@ -194,15 +200,23 @@ export default function Documenti() {
         </p>
 
         <nav className={styles.navigation}>
-          <Link href="/blog/kolko-struva-kola-za-brakuvane" className={styles.nav_link}>
-            ← Предишен пост
-          </Link>
+          {prevPost ? (
+            <Link href={`/blog/${prevPost.slug}`} className={styles.nav_link}>
+              ← {prevPost.title}
+            </Link>
+          ) : (
+            <span></span>
+          )}
           <Link href="/blog/" className={styles.nav_link}>
             Всички постове
           </Link>
-          <Link href="/blog/kak-da-podgotvya-kola-za-brakuvane" className={styles.nav_link}>
-            Следващ пост →
-          </Link>
+          {nextPost ? (
+            <Link href={`/blog/${nextPost.slug}`} className={styles.nav_link}>
+              {nextPost.title} →
+            </Link>
+          ) : (
+            <span></span>
+          )}
         </nav>
       </section>
     </>

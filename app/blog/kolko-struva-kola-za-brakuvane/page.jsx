@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import styles from "./kolko.module.css";
+import { posts } from "../../../lib/posts";
 
 export const metadata = {
   title: "Колко струва кола за бракуване | Autoblog",
@@ -35,6 +36,11 @@ export const metadata = {
 export default function Kolko() {
   const publishDate = "6 февруари 2026";
   const readingTime = "5 мин.";
+
+  const currentSlug = 'kolko-struva-kola-za-brakuvane'
+  const currentIndex = posts.findIndex(post => post.slug === currentSlug)
+  const prevPost = currentIndex > 0 ? posts[currentIndex - 1] : null
+  const nextPost = currentIndex < posts.length - 1 ? posts[currentIndex + 1] : null
 
   return (
     <>
@@ -197,13 +203,23 @@ export default function Kolko() {
         </p>
 
         <nav className={styles.navigation}>
-          <Link href="/blog/" className={styles.nav_link}>
-            ← Назад към блога
-          </Link>
+          {prevPost ? (
+            <Link href={`/blog/${prevPost.slug}`} className={styles.nav_link}>
+              ← {prevPost.title}
+            </Link>
+          ) : (
+            <Link href="/blog/" className={styles.nav_link}>
+              ← Назад към блога
+            </Link>
+          )}
           <div className={styles.nav_spacer}></div>
-          <Link href="/blog/documenti-za-da-brakuvate-kola" className={styles.nav_link}>
-            Следващ пост →
-          </Link>
+          {nextPost ? (
+            <Link href={`/blog/${nextPost.slug}`} className={styles.nav_link}>
+              {nextPost.title} →
+            </Link>
+          ) : (
+            <span></span>
+          )}
         </nav>
       </section>
     </>

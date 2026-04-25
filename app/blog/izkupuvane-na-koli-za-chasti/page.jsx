@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import styles from "./chasti.module.css";
+import { posts } from "../../../lib/posts";
 
 export const metadata = {
   title: "Изкупуване на коли за части – честно за цените",
@@ -37,6 +38,11 @@ export const metadata = {
 export default function IzkupuvaneNaKoliZaChasti() {
   const publishDate = "19 април 2026";
   const readingTime = "8 мин.";
+
+  const currentSlug = 'izkupuvane-na-koli-za-chasti'
+  const currentIndex = posts.findIndex(post => post.slug === currentSlug)
+  const prevPost = currentIndex > 0 ? posts[currentIndex - 1] : null
+  const nextPost = currentIndex < posts.length - 1 ? posts[currentIndex + 1] : null
 
   return (
     <>
@@ -303,16 +309,23 @@ export default function IzkupuvaneNaKoliZaChasti() {
         </p>
 
         <nav className={styles.navigation}>
-          <Link href="/blog/" className={styles.nav_link}>
-            ← Назад към блога
-          </Link>
+          {prevPost ? (
+            <Link href={`/blog/${prevPost.slug}`} className={styles.nav_link}>
+              ← {prevPost.title}
+            </Link>
+          ) : (
+            <Link href="/blog/" className={styles.nav_link}>
+              ← Назад към блога
+            </Link>
+          )}
           <div className={styles.nav_spacer}></div>
-          <Link
-            href="/blog/kolko-struva-kola-za-brakuvane"
-            className={styles.nav_link}
-          >
-            Колко струва за бракуване →
-          </Link>
+          {nextPost ? (
+            <Link href={`/blog/${nextPost.slug}`} className={styles.nav_link}>
+              {nextPost.title} →
+            </Link>
+          ) : (
+            <span></span>
+          )}
         </nav>
       </section>
     </>

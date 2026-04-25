@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import styles from "./izkupuvane.module.css";
+import { posts } from "../../../lib/posts";
 
 export const metadata = {
   title: "Изкупуване на коли за скрап | Autoblog",
@@ -35,6 +36,11 @@ export const metadata = {
 export default function Izkupuvane() {
   const publishDate = "6 февруари 2026";
   const readingTime = "6 мин.";
+
+  const currentSlug = 'izkupuvane-na-koli-za-skrap'
+  const currentIndex = posts.findIndex(post => post.slug === currentSlug)
+  const prevPost = currentIndex > 0 ? posts[currentIndex - 1] : null
+  const nextPost = currentIndex < posts.length - 1 ? posts[currentIndex + 1] : null
 
   return (
     <>
@@ -188,15 +194,23 @@ export default function Izkupuvane() {
         </p>
 
         <nav className={styles.navigation}>
-          <Link href="/blog/kak-da-podgotvya-kola-za-brakuvane" className={styles.nav_link}>
-            ← Предишен пост
-          </Link>
+          {prevPost ? (
+            <Link href={`/blog/${prevPost.slug}`} className={styles.nav_link}>
+              ← {prevPost.title}
+            </Link>
+          ) : (
+            <span></span>
+          )}
           <Link href="/blog/" className={styles.nav_link}>
             Всички постове
           </Link>
-          <Link href="/blog/kogato-dvigatela-e-za-smyana" className={styles.nav_link}>
-            Следващ пост →
-          </Link>
+          {nextPost ? (
+            <Link href={`/blog/${nextPost.slug}`} className={styles.nav_link}>
+              {nextPost.title} →
+            </Link>
+          ) : (
+            <span></span>
+          )}
         </nav>
       </section>
     </>
