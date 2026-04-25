@@ -6,18 +6,18 @@ export const metadata = {
   title: "Как да подготвя кола за бракуване | Autoblog",
   description: "Как да подготвите кола за бракуване стъпка по стъпка – документи, лични вещи, техническо състояние и как да получите най-добрата цена при предаване.",
   alternates: {
-    canonical: "https://autoblog-bg.netlify.app/blog/kak-da-podgotvya-kola-za-brakuvane",
+    canonical: "https://kolipari.com/blog/kak-da-podgotvya-kola-za-brakuvane",
   },
   openGraph: {
     title: "Как да подготвя кола за бракуване | Autoblog",
     description: "Как да подготвите кола за бракуване стъпка по стъпка – документи, лични вещи, техническо състояние и как да получите най-добрата цена при предаване.",
-    url: "https://autoblog-bg.netlify.app/blog/kak-da-podgotvya-kola-za-brakuvane",
+    url: "https://kolipari.com/blog/kak-da-podgotvya-kola-za-brakuvane",
     siteName: "Autoblog",
     locale: "bg_BG",
     type: "article",
     images: [
       {
-        url: "https://autoblog-bg.netlify.app/og/carscrap.webp",
+        url: "https://kolipari.com/og/carscrap.webp",
         width: 1200,
         height: 630,
         alt: "Как да подготвя кола за бракуване | Autoblog",
@@ -28,7 +28,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Как да подготвя кола за бракуване | Autoblog",
     description: "Как да подготвите кола за бракуване стъпка по стъпка – документи, лични вещи, техническо състояние и как да получите най-добрата цена при предаване.",
-    images: ["https://autoblog-bg.netlify.app/og/carscrap.webp"],
+    images: ["https://kolipari.com/og/carscrap.webp"],
   },
 };
 
@@ -202,3 +202,4 @@ export default function KakDaPodgotvya() {
     </>
   );
 }
+

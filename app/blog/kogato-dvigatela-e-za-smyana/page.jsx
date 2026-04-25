@@ -7,19 +7,19 @@ export const metadata = {
   description:
     "Полезни съвети когато двигателя е за смяна. Кога се налага смяна, как да изберете надежден двигател втора употреба.",
   alternates: {
-    canonical: "https://autoblog-bg.netlify.app/blog/kogato-dvigatela-e-za-smyana",
+    canonical: "https://kolipari.com/blog/kogato-dvigatela-e-za-smyana",
   },
   openGraph: {
     title: "Когато двигателя е за смяна",
     description:
       "Полезни съвети когато двигателя е за смяна. Кога се налага смяна, как да изберете надежден двигател втора употреба.",
-    url: "https://autoblog-bg.netlify.app/blog/kogato-dvigatela-e-za-smyana",
+    url: "https://kolipari.com/blog/kogato-dvigatela-e-za-smyana",
     siteName: "Autoblog",
     locale: "bg_BG",
     type: "article",
     images: [
       {
-        url: "https://autoblog-bg.netlify.app/og/engine.webp",
+        url: "https://kolipari.com/og/engine.webp",
         width: 1200,
         height: 630,
         alt: "Когато двигателя е за смяна",
@@ -30,7 +30,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Когато двигателя е за смяна",
     description: "Полезни съвети когато двигателя е за смяна. Кога се налага смяна, как да изберете надежден двигател втора употреба.",
-    images: ["https://autoblog-bg.netlify.app/og/engine.webp"],
+    images: ["https://kolipari.com/og/engine.webp"],
   },
 };
 
@@ -287,3 +287,4 @@ export default function KogatoDvigatela() {
     </>
   );
 }
+

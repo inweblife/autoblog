@@ -8,19 +8,19 @@ export const metadata = {
   description:
     "Тук ще намерите отговорите на всички въпроси, свързани с ремонти на автомобили, авточасти втора употреба и бракуване на стари коли.",
   alternates: {
-    canonical: "https://autoblog-bg.netlify.app/blog",
+    canonical: "https://kolipari.com/blog",
   },
   openGraph: {
     title: "Блог за коли | Autoblog",
     description:
       "Тук ще намерите отговорите на всички въпроси, свързани с ремонти на автомобили, авточасти втора употреба и бракуване на стари коли.",
-    url: "https://autoblog-bg.netlify.app/blog",
+    url: "https://kolipari.com/blog",
     siteName: "Autoblog",
     locale: "bg_BG",
     type: "website",
     images: [
       {
-        url: "https://autoblog-bg.netlify.app/og/blog.webp",
+        url: "https://kolipari.com/og/blog.webp",
         width: 1200,
         height: 630,
         alt: "Блог за коли – Autoblog",
@@ -31,7 +31,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Блог за коли | Autoblog",
     description: "Тук ще намерите отговорите на всички въпроси, свързани с ремонти на автомобили, авточасти втора употреба и бракуване на стари коли.",
-    images: ["https://autoblog-bg.netlify.app/og/blog.webp"],
+    images: ["https://kolipari.com/og/blog.webp"],
   },
 };
 
@@ -284,3 +284,4 @@ export default function Blog() {
     </>
   );
 }
+

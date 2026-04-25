@@ -6,18 +6,18 @@ export const metadata = {
   title: "Изкупуване на коли за скрап | Autoblog",
   description: "Как работи изкупуването на коли за скрап – необходими документи, оценка на цената, процес на предаване и как да получите удостоверение за дерегистрация.",
   alternates: {
-    canonical: "https://autoblog-bg.netlify.app/blog/izkupuvane-na-koli-za-skrap",
+    canonical: "https://kolipari.com/blog/izkupuvane-na-koli-za-skrap",
   },
   openGraph: {
     title: "Изкупуване на коли за скрап | Autoblog",
     description: "Как работи изкупуването на коли за скрап – необходими документи, оценка на цената, процес на предаване и как да получите удостоверение за дерегистрация.",
-    url: "https://autoblog-bg.netlify.app/blog/izkupuvane-na-koli-za-skrap",
+    url: "https://kolipari.com/blog/izkupuvane-na-koli-za-skrap",
     siteName: "Autoblog",
     locale: "bg_BG",
     type: "article",
     images: [
       {
-        url: "https://autoblog-bg.netlify.app/og/oldcar.webp",
+        url: "https://kolipari.com/og/oldcar.webp",
         width: 1200,
         height: 630,
         alt: "Изкупуване на коли за скрап | Autoblog",
@@ -28,7 +28,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Изкупуване на коли за скрап | Autoblog",
     description: "Как работи изкупуването на коли за скрап – необходими документи, оценка на цената, процес на предаване и как да получите удостоверение за дерегистрация.",
-    images: ["https://autoblog-bg.netlify.app/og/oldcar.webp"],
+    images: ["https://kolipari.com/og/oldcar.webp"],
   },
 };
 
@@ -202,3 +202,4 @@ export default function Izkupuvane() {
     </>
   );
 }
+

@@ -5,67 +5,67 @@
               http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <url>
-    <loc>https://autoblog-bg.netlify.app/</loc>
+    <loc>https://kolipari.com/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
     <priority>1.00</priority>
   </url>
 
   <url>
-    <loc>https://autoblog-bg.netlify.app/blog</loc>
+    <loc>https://kolipari.com/blog</loc>
     <lastmod>2026-04-19T00:00:00+00:00</lastmod>
     <priority>0.90</priority>
   </url>
 
   <url>
-    <loc>https://autoblog-bg.netlify.app/about</loc>
+    <loc>https://kolipari.com/about</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
     <priority>0.70</priority>
   </url>
 
   <url>
-    <loc>https://autoblog-bg.netlify.app/blog/izkupuvane-na-koli-za-chasti</loc>
+    <loc>https://kolipari.com/blog/izkupuvane-na-koli-za-chasti</loc>
     <lastmod>2026-04-19T00:00:00+00:00</lastmod>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://autoblog-bg.netlify.app/blog/kak-raboti-koli-za-skrap-kalkulatora</loc>
+    <loc>https://kolipari.com/blog/kak-raboti-koli-za-skrap-kalkulatora</loc>
     <lastmod>2026-04-19T00:00:00+00:00</lastmod>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://autoblog-bg.netlify.app/blog/priznaci-na-povreda-skoresna-kutiya</loc>
+    <loc>https://kolipari.com/blog/priznaci-na-povreda-skoresna-kutiya</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://autoblog-bg.netlify.app/blog/kogato-dvigatela-e-za-smyana</loc>
+    <loc>https://kolipari.com/blog/kogato-dvigatela-e-za-smyana</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://autoblog-bg.netlify.app/blog/izkupuvane-na-koli-za-skrap</loc>
+    <loc>https://kolipari.com/blog/izkupuvane-na-koli-za-skrap</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://autoblog-bg.netlify.app/blog/kak-da-podgotvya-kola-za-brakuvane</loc>
+    <loc>https://kolipari.com/blog/kak-da-podgotvya-kola-za-brakuvane</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://autoblog-bg.netlify.app/blog/documenti-za-da-brakuvate-kola</loc>
+    <loc>https://kolipari.com/blog/documenti-za-da-brakuvate-kola</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://autoblog-bg.netlify.app/blog/kolko-struva-kola-za-brakuvane</loc>
+    <loc>https://kolipari.com/blog/kolko-struva-kola-za-brakuvane</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
     <priority>0.80</priority>
   </url>

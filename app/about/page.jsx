@@ -6,18 +6,18 @@ export const metadata = {
   title: "За нас | Autoblog",
   description: "За нас и защо пишем новини за автомобили, авточасти и бракуване на коли",
   alternates: {
-    canonical: 'https://autoblog-bg.netlify.app/about',
+    canonical: 'https://kolipari.com/about',
   },
   openGraph: {
     title: 'За нас | Autoblog',
     description: 'За нас и защо пишем новини за автомобили, авточасти и бракуване на коли',
-    url: 'https://autoblog-bg.netlify.app/about',
+    url: 'https://kolipari.com/about',
     siteName: 'Autoblog',
     locale: 'bg_BG',
     type: 'website',
     images: [
       {
-        url: 'https://autoblog-bg.netlify.app/og/about.webp',
+        url: 'https://kolipari.com/og/about.webp',
         width: 1200,
         height: 630,
         alt: 'a lady read news',
@@ -28,7 +28,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'За нас | Autoblog',
     description: 'За нас и защо пишем новини за автомобили, авточасти и бракуване на коли',
-    images: ['https://autoblog-bg.netlify.app/og/about.webp'],
+    images: ['https://kolipari.com/og/about.webp'],
   },
 };
 
@@ -109,3 +109,4 @@ export default function about() {
     </>
   );
 }
+

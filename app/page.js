@@ -8,18 +8,18 @@ export const metadata = {
   description:
     "Новини за автомобили, авточасти втора употреба и бракуване на коли. Ценни съвети за всеки фен на колите, който иска да е в крак с модата",
   alternates: {
-    canonical: 'https://autoblog-bg.netlify.app/',
+    canonical: 'https://kolipari.com/',
   },
   openGraph: {
     title: 'Autoblog | Новини за коли',
     description: 'Новини за автомобили, авточасти втора употреба и бракуване на коли.',
-    url: 'https://autoblog-bg.netlify.app/',
+    url: 'https://kolipari.com/',
     siteName: 'Autoblog',
     locale: 'bg_BG',
     type: 'website',
     images: [
       {
-        url: 'https://autoblog-bg.netlify.app/og/cover.webp',
+        url: 'https://kolipari.com/og/cover.webp',
         width: 1200,
         height: 630,
         alt: 'Autoblog - новини за коли',
@@ -30,7 +30,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Autoblog | Новини за коли',
     description: 'Новини за автомобили, авточасти втора употреба и бракуване на коли.',
-    images: ['https://autoblog-bg.netlify.app/og/cover.webp'],
+    images: ['https://kolipari.com/og/cover.webp'],
   },
 };
 
@@ -159,3 +159,4 @@ export default function Home() {
     </>
   );
 }
+

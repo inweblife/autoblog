@@ -7,19 +7,19 @@ export const metadata = {
   description:
     "Продажба на кола за части или за скрап – кога има смисъл, как се формира реалната цена и защо инвестицията в ремонти не увеличава стойността на стария автомобил.",
   alternates: {
-    canonical: "https://autoblog-bg.netlify.app/blog/izkupuvane-na-koli-za-chasti",
+    canonical: "https://kolipari.com/blog/izkupuvane-na-koli-za-chasti",
   },
   openGraph: {
     title: "Изкупуване на коли за части – честно за цените",
     description:
       "Продажба на кола за части или за скрап – кога има смисъл, как се формира реалната цена и защо инвестицията в ремонти не увеличава стойността на стария автомобил.",
-    url: "https://autoblog-bg.netlify.app/blog/izkupuvane-na-koli-za-chasti",
+    url: "https://kolipari.com/blog/izkupuvane-na-koli-za-chasti",
     siteName: "Autoblog",
     locale: "bg_BG",
     type: "article",
     images: [
       {
-        url: "https://autoblog-bg.netlify.app/og/koli-za-chasti.webp",
+        url: "https://kolipari.com/og/koli-za-chasti.webp",
         width: 1200,
         height: 630,
         alt: "изкупуване на коли за части",
@@ -30,7 +30,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Изкупуване на коли за части – честно за цените",
     description: "Продажба на кола за части или за скрап – кога има смисъл и как се формира реалната цена.",
-    images: ["https://autoblog-bg.netlify.app/og/koli-za-chasti.webp"],
+    images: ["https://kolipari.com/og/koli-za-chasti.webp"],
   },
 };
 
@@ -318,3 +318,4 @@ export default function IzkupuvaneNaKoliZaChasti() {
     </>
   );
 }
+

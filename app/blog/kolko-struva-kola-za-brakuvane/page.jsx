@@ -6,18 +6,18 @@ export const metadata = {
   title: "Колко струва кола за бракуване | Autoblog",
   description: "Колко струва кола за бракуване? Разберете как се формира цената при скрап, от какво зависи и как да получите максималната сума за стария си автомобил.",
   alternates: {
-    canonical: "https://autoblog-bg.netlify.app/blog/kolko-struva-kola-za-brakuvane",
+    canonical: "https://kolipari.com/blog/kolko-struva-kola-za-brakuvane",
   },
   openGraph: {
     title: "Колко струва кола за бракуване | Autoblog",
     description: "Колко струва кола за бракуване? Разберете как се формира цената при скрап, от какво зависи и как да получите максималната сума за стария си автомобил.",
-    url: "https://autoblog-bg.netlify.app/blog/kolko-struva-kola-za-brakuvane",
+    url: "https://kolipari.com/blog/kolko-struva-kola-za-brakuvane",
     siteName: "Autoblog",
     locale: "bg_BG",
     type: "article",
     images: [
       {
-        url: "https://autoblog-bg.netlify.app/og/carscrap.webp",
+        url: "https://kolipari.com/og/carscrap.webp",
         width: 1200,
         height: 630,
         alt: "Колко струва кола за бракуване | Autoblog",
@@ -28,7 +28,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Колко струва кола за бракуване | Autoblog",
     description: "Колко струва кола за бракуване? Разберете как се формира цената при скрап, от какво зависи и как да получите максималната сума за стария си автомобил.",
-    images: ["https://autoblog-bg.netlify.app/og/carscrap.webp"],
+    images: ["https://kolipari.com/og/carscrap.webp"],
   },
 };
 
@@ -209,3 +209,4 @@ export default function Kolko() {
     </>
   );
 }
+

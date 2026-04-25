@@ -60,7 +60,7 @@
 
 .cover {
   background-image:
-    url("https://autoblog-bg.netlify.app/vehicle.webp"),
+    url("https://kolipari.com/vehicle.webp"),
     linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
   background-size: cover;
   background-position: center;

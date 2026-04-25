@@ -6,18 +6,18 @@ export const metadata = {
   title: "Документи за да бракувате кола | Autoblog",
   description: "Какви са необходимите документи за бракуване на кола? Пълно ръководство за продажба на скрап и прекратяване на регистрацията в КАТ без грешки.",
   alternates: {
-    canonical: "https://autoblog-bg.netlify.app/blog/documenti-za-da-brakuvate-kola",
+    canonical: "https://kolipari.com/blog/documenti-za-da-brakuvate-kola",
   },
   openGraph: {
     title: "Документи за да бракувате кола | Autoblog",
     description: "Какви са необходимите документи за бракуване на кола? Пълно ръководство за продажба на скрап и прекратяване на регистрацията в КАТ без грешки.",
-    url: "https://autoblog-bg.netlify.app/blog/documenti-za-da-brakuvate-kola",
+    url: "https://kolipari.com/blog/documenti-za-da-brakuvate-kola",
     siteName: "Autoblog",
     locale: "bg_BG",
     type: "article",
     images: [
       {
-        url: "https://autoblog-bg.netlify.app/og/documenti.webp",
+        url: "https://kolipari.com/og/documenti.webp",
         width: 1200,
         height: 630,
         alt: "Документи за бракуване на кола",
@@ -28,7 +28,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Документи за да бракувате кола | Autoblog",
     description: "Какви са необходимите документи за бракуване на кола? Пълно ръководство за продажба на скрап и прекратяване на регистрацията в КАТ без грешки.",
-    images: ["https://autoblog-bg.netlify.app/og/documenti.webp"],
+    images: ["https://kolipari.com/og/documenti.webp"],
   },
 };
 
@@ -208,3 +208,4 @@ export default function Documenti() {
     </>
   );
 }
+

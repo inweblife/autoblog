@@ -18,19 +18,19 @@ export const metadata = {
   },
   alternates: {
     types: {
-      'application/rss+xml': 'https://autoblog-bg.netlify.app/feed.xml',
+      'application/rss+xml': 'https://kolipari.com/feed.xml',
     },
   },
   openGraph: {
     title: 'Autoblog',
     description: 'Новини за автомобили, авточасти и бракуване на коли',
-    url: 'https://autoblog-bg.netlify.app/',
+    url: 'https://kolipari.com/',
     siteName: 'Autoblog',
     locale: 'bg_BG',
     type: 'website',
     images: [
       {
-        url: 'https://autoblog-bg.netlify.app/og/cover.webp',
+        url: 'https://kolipari.com/og/cover.webp',
         width: 1200,
         height: 630,
         alt: 'Autoblog - новини за коли',
@@ -41,7 +41,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Autoblog',
     description: 'Новини за автомобили, авточасти и бракуване на коли',
-    images: ['https://autoblog-bg.netlify.app/og/cover.webp'],
+    images: ['https://kolipari.com/og/cover.webp'],
   },
 };  
 export default function RootLayout({ children }) {
@@ -55,3 +55,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+

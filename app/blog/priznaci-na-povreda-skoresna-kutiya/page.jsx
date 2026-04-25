@@ -7,19 +7,19 @@ export const metadata = {
   description:
     "Полезни съвети разпознайте признаци на повредена скоростна кутия. Как да разбете дали проблема е в скоростната кутия, а не в съединителя.",
   alternates: {
-    canonical: "https://autoblog-bg.netlify.app/blog/priznaci-na-povreda-skoresna-kutiya",
+    canonical: "https://kolipari.com/blog/priznaci-na-povreda-skoresna-kutiya",
   },
   openGraph: {
     title: "Признаци на повредена скоростна кутия",
     description:
       "Полезни съвети разпознайте признаци на повредена скоростна кутия. Как да разбете дали проблема е в скоростната кутия, а не в съединителя.",
-    url: "https://autoblog-bg.netlify.app/blog/priznaci-na-povreda-skoresna-kutiya",
+    url: "https://kolipari.com/blog/priznaci-na-povreda-skoresna-kutiya",
     siteName: "Autoblog",
     locale: "bg_BG",
     type: "article",
     images: [
       {
-        url: "https://autoblog-bg.netlify.app/og/gearbox.webp",
+        url: "https://kolipari.com/og/gearbox.webp",
         width: 1200,
         height: 630,
         alt: "Признаци на повредена скоростна кутия",
@@ -30,7 +30,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Признаци на повредена скоростна кутия",
     description: "Полезни съвети разпознайте признаци на повредена скоростна кутия. Как да разбете дали проблема е в скоростната кутия, а не в съединителя.",
-    images: ["https://autoblog-bg.netlify.app/og/gearbox.webp"],
+    images: ["https://kolipari.com/og/gearbox.webp"],
   },
 };
 
@@ -280,3 +280,4 @@ export default function PoznaciNaPovredena() {
     </>
   );
 }
+
