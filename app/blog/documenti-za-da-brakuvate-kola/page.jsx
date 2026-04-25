@@ -3,36 +3,6 @@ import Link from "next/link";
 import styles from "./documenti.module.css";
 import { posts } from "../../../lib/posts";
 
-export const metadata = {
-  title: "Документи за да бракувате кола | Autoblog",
-  description: "Какви са необходимите документи за бракуване на кола? Пълно ръководство за продажба на скрап и прекратяване на регистрацията в КАТ без грешки.",
-  alternates: {
-    canonical: "https://kolipari.com/blog/documenti-za-da-brakuvate-kola",
-  },
-  openGraph: {
-    title: "Документи за да бракувате кола | Autoblog",
-    description: "Какви са необходимите документи за бракуване на кола? Пълно ръководство за продажба на скрап и прекратяване на регистрацията в КАТ без грешки.",
-    url: "https://kolipari.com/blog/documenti-za-da-brakuvate-kola",
-    siteName: "Autoblog",
-    locale: "bg_BG",
-    type: "article",
-    images: [
-      {
-        url: "https://kolipari.com/og/documenti.webp",
-        width: 1200,
-        height: 630,
-        alt: "Документи за бракуване на кола",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Документи за да бракувате кола | Autoblog",
-    description: "Какви са необходимите документи за бракуване на кола? Пълно ръководство за продажба на скрап и прекратяване на регистрацията в КАТ без грешки.",
-    images: ["https://kolipari.com/og/documenti.webp"],
-  },
-};
-
 export default function Documenti() {
   const publishDate = "6 февруари 2026";
   const readingTime = "4 мин.";
@@ -199,25 +169,6 @@ export default function Documenti() {
           на собствен ход до пункта, а да бъде транспортиран с "Пътна помощ".
         </p>
 
-        <nav className={styles.navigation}>
-          {prevPost ? (
-            <Link href={`/blog/${prevPost.slug}`} className={styles.nav_link}>
-              ← {prevPost.title}
-            </Link>
-          ) : (
-            <span></span>
-          )}
-          <Link href="/blog/" className={styles.nav_link}>
-            Всички постове
-          </Link>
-          {nextPost ? (
-            <Link href={`/blog/${nextPost.slug}`} className={styles.nav_link}>
-              {nextPost.title} →
-            </Link>
-          ) : (
-            <span></span>
-          )}
-        </nav>
       </section>
     </>
   );

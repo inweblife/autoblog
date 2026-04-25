@@ -1,9 +1,9 @@
 export default function Footer() {
     return (
         <footer>
-          <copyright>
+          <p>
             Copyright {new Date().getFullYear()} AutoBlog - новини за коли
-          </copyright>
+          </p>
           <p style={{ marginTop: "0.4em", fontSize: "0.85em", fontWeight: "normal", opacity: 0.8 }}>
             <a
               href="https://inweblife.vercel.app/"

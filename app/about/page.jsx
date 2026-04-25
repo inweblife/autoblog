@@ -2,36 +2,6 @@ import Link from "next/link";
 
 import styles from "./about.module.css";
 
-export const metadata = {
-  title: "За нас | Autoblog",
-  description: "За нас и защо пишем новини за автомобили, авточасти и бракуване на коли",
-  alternates: {
-    canonical: 'https://kolipari.com/about',
-  },
-  openGraph: {
-    title: 'За нас | Autoblog',
-    description: 'За нас и защо пишем новини за автомобили, авточасти и бракуване на коли',
-    url: 'https://kolipari.com/about',
-    siteName: 'Autoblog',
-    locale: 'bg_BG',
-    type: 'website',
-    images: [
-      {
-        url: 'https://kolipari.com/og/about.webp',
-        width: 1200,
-        height: 630,
-        alt: 'a lady read news',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'За нас | Autoblog',
-    description: 'За нас и защо пишем новини за автомобили, авточасти и бракуване на коли',
-    images: ['https://kolipari.com/og/about.webp'],
-  },
-};
-
 export default function about() {
   return (
     <>
