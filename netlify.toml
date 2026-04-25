@@ -1,10 +1,4 @@
 [[redirects]]
-  from = "/*"
-  to = "https://kolipari.com/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "/sitemap.xml"
   to = "/sitemap-static.xml"
   status = 200
