@@ -3,6 +3,38 @@ import Link from "next/link";
 import styles from "./documenti.module.css";
 import { posts } from "../../../lib/posts";
 
+export const metadata = {
+  title: "Документи за бракуване на кола – пълно ръководство",
+  description:
+    "Какви документи са нужни за бракуване на кола и дерегистрация в КАТ? Разберете всичко за процедурата стъпка по стъпка.",
+  alternates: {
+    canonical: "https://kolipari.com/blog/documenti-za-da-brakuvate-kola",
+  },
+  openGraph: {
+    title: "Документи за бракуване на кола – пълно ръководство",
+    description:
+      "Какви документи са нужни за бракуване на кола и дерегистрация в КАТ? Разберете всичко за процедурата стъпка по стъпка.",
+    url: "https://kolipari.com/blog/documenti-za-da-brakuvate-kola",
+    siteName: "Autoblog",
+    locale: "bg_BG",
+    type: "article",
+    images: [
+      {
+        url: "https://kolipari.com/og/documenti.webp",
+        width: 1200,
+        height: 630,
+        alt: "документи за бракуване на кола",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Документи за бракуване на кола – пълно ръководство",
+    description: "Какви документи са нужни за бракуване на кола и дерегистрация в КАТ?",
+    images: ["https://kolipari.com/og/documenti.webp"],
+  },
+};
+
 export default function Documenti() {
   const publishDate = "6 февруари 2026";
   const readingTime = "4 мин.";

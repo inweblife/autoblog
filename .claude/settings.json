@@ -3,7 +3,10 @@
     "allow": [
       "Bash(git worktree *)",
       "Bash(git branch *)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(xargs ls *)",
+      "Bash(grep -E \"\\\\\\\\.env|netlify\")",
+      "Bash(awk -F: '{print $1}')"
     ]
   }
 }
