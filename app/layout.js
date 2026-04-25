@@ -1,11 +1,14 @@
-import { Rubik } from "next/font/google";
+import { Inter, Rye, Poppins, Rubik } from "next/font/google";
 import "./globals.css";
 
 //components
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-const rubik = Rubik({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const rye = Rye({ subsets: ["latin"], weight: "400", variable: "--font-rye" });
+const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-poppins" });
+const rubik = Rubik({ subsets: ["latin"], variable: "--font-rubik" });
 
 export const metadata = {
   title: "Autoblog",
@@ -47,7 +50,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="bg">
-      <body className={rubik.className}>
+      <body className={`${inter.variable} ${rye.variable} ${poppins.variable} ${rubik.variable}`}>
         <Navbar />
         {children}
         <Footer />
