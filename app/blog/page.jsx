@@ -140,7 +140,7 @@ export default function Blog() {
             <div className={styles.card}>
               <Image
                 src="/documenti.webp"
-                alt="car scrap"
+                alt="документи за бракуване на кола"
                 width={1024}
                 height={768}
                 style={{
@@ -169,7 +169,7 @@ export default function Blog() {
             <div className={styles.card}>
               <Image
                 src="/vehicle.webp"
-                alt="car preparation"
+                alt="подготовка на кола за бракуване"
                 width={1024}
                 height={768}
                 style={{
@@ -198,7 +198,7 @@ export default function Blog() {
             <div className={styles.card}>
               <Image
                 src="/oldcar.webp"
-                alt="old car scrapping"
+                alt="изкупуване на коли за скрап"
                 width={1024}
                 height={768}
                 style={{
@@ -225,7 +225,7 @@ export default function Blog() {
             <div className={styles.card}>
               <Image
                 src="/engine.webp"
-                alt="engine replacement"
+                alt="смяна на двигател"
                 width={1024}
                 height={768}
                 style={{
@@ -253,7 +253,7 @@ export default function Blog() {
             <div className={styles.card}>
               <Image
                 src="/gearbox.webp"
-                alt="gearbox repair"
+                alt="повредена скоростна кутия"
                 width={1024}
                 height={768}
                 style={{

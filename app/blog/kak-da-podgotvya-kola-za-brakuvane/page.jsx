@@ -41,9 +41,25 @@ export default function KakDaPodgotvya() {
   const currentIndex = posts.findIndex(post => post.slug === currentSlug)
   const prevPost = currentIndex > 0 ? posts[currentIndex - 1] : null
   const nextPost = currentIndex < posts.length - 1 ? posts[currentIndex + 1] : null
+  const post = posts[currentIndex]
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.description,
+    url: `https://kolipari.com/blog/${post.slug}`,
+    image: post.image,
+    datePublished: post.lastmod,
+    dateModified: post.lastmod,
+    author: { '@type': 'Organization', name: 'Autoblog', url: 'https://kolipari.com' },
+    publisher: { '@type': 'Organization', name: 'Autoblog', url: 'https://kolipari.com' },
+    inLanguage: 'bg',
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://kolipari.com/blog/${post.slug}` },
+  }
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <nav className={styles.breadcrumb}>
         <Link href="/blog">Блог</Link>
         <span>/</span>
