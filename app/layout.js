@@ -16,10 +16,23 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const rye = Rye({ subsets: ["latin"], weight: "400", variable: "--font-rye" });
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-poppins" });
 
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Autoblog',
+  url: 'https://kolipari.com',
+  description: 'Новини за автомобили, авточасти втора употреба и бракуване на коли.',
+  inLanguage: 'bg',
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="bg">
       <body className={`${inter.variable} ${rye.variable} ${poppins.variable}`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
         <Navbar />
         {children}
         <Footer />

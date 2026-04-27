@@ -111,7 +111,7 @@ export default function Blog() {
             <div className={styles.card}>
               <Image
                 src="/carscrap.webp"
-                alt="car scrap"
+                alt="колко струва кола за бракуване"
                 width={1024}
                 height={768}
                 style={{
