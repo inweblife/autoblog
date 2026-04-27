@@ -5,6 +5,13 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
+export const metadata = {
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+  },
+};
+
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const rye = Rye({ subsets: ["latin"], weight: "400", variable: "--font-rye" });
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-poppins" });
