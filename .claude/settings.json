@@ -6,7 +6,8 @@
       "WebSearch",
       "Bash(xargs ls *)",
       "Bash(grep -E \"\\\\\\\\.env|netlify\")",
-      "Bash(awk -F: '{print $1}')"
+      "Bash(awk -F: '{print $1}')",
+      "Bash(npm audit *)"
     ],
     "additionalDirectories": [
       "c:\\Users\\ivan7\\Documents\\Dev\\autoblog\\app"
