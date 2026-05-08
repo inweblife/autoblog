@@ -4,14 +4,14 @@ import styles from "./documenti.module.css";
 import { posts } from "../../../lib/posts";
 
 export const metadata = {
-  title: "Документи за бракуване на кола – пълно ръководство",
+  title: "Документи за бракуване на кола - пълно ръководство",
   description:
     "Какви документи са нужни за бракуване на кола и дерегистрация в КАТ? Разберете всичко за процедурата стъпка по стъпка.",
   alternates: {
     canonical: "https://kolipari.com/blog/documenti-za-da-brakuvate-kola",
   },
   openGraph: {
-    title: "Документи за бракуване на кола – пълно ръководство",
+    title: "Документи за бракуване на кола - пълно ръководство",
     description:
       "Какви документи са нужни за бракуване на кола и дерегистрация в КАТ? Разберете всичко за процедурата стъпка по стъпка.",
     url: "https://kolipari.com/blog/documenti-za-da-brakuvate-kola",
@@ -29,7 +29,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Документи за бракуване на кола – пълно ръководство",
+    title: "Документи за бракуване на кола - пълно ръководство",
     description: "Какви документи са нужни за бракуване на кола и дерегистрация в КАТ?",
     images: ["https://kolipari.com/og/documenti.webp"],
   },
@@ -183,7 +183,7 @@ export default function Documenti() {
 
         <p className={styles.section_text}>
           Преди да се стигне до документите, е добре да сте наясно и с
-          практическите стъпки —{" "}
+          практическите стъпки -{" "}
           <Link href="/blog/kak-da-podgotvya-kola-za-brakuvane">
             <strong>как да подготвите кола за бракуване</strong>
           </Link>{" "}

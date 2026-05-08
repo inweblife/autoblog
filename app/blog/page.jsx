@@ -23,7 +23,7 @@ export const metadata = {
         url: "https://kolipari.com/og/blog.webp",
         width: 1200,
         height: 630,
-        alt: "Блог за коли – Autoblog",
+        alt: "Блог за коли - Autoblog",
       },
     ],
   },
@@ -61,8 +61,8 @@ export default function Blog() {
                   height: "auto",
                 }}
               />
-              <Link href="/blog/izkupuvane-na-koli-za-chasti" className={styles.card_title} aria-label="Изкупуване на коли за части – честно за цените">
-                Изкупуване на коли за части – честно за цените
+              <Link href="/blog/izkupuvane-na-koli-za-chasti" className={styles.card_title} aria-label="Изкупуване на коли за части - честно за цените">
+                Изкупуване на коли за части - честно за цените
               </Link>
               <p className={styles.card_text}>
                 Кога има смисъл{" "}

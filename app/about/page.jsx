@@ -3,14 +3,14 @@ import Link from "next/link";
 import styles from "./about.module.css";
 
 export const metadata = {
-  title: "За нас – Autoblog | Новини за коли",
+  title: "За нас - Autoblog | Новини за коли",
   description:
     "Autoblog е блог за автомобили, авточасти втора употреба и бракуване на коли. Пишем практични съвети за всеки собственик на автомобил.",
   alternates: {
     canonical: "https://kolipari.com/about",
   },
   openGraph: {
-    title: "За нас – Autoblog | Новини за коли",
+    title: "За нас - Autoblog | Новини за коли",
     description:
       "Autoblog е блог за автомобили, авточасти втора употреба и бракуване на коли. Пишем практични съвети за всеки собственик на автомобил.",
     url: "https://kolipari.com/about",
@@ -28,7 +28,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "За нас – Autoblog | Новини за коли",
+    title: "За нас - Autoblog | Новини за коли",
     description: "Autoblog е блог за автомобили, авточасти втора употреба и бракуване на коли.",
     images: ["https://kolipari.com/og/about.webp"],
   },

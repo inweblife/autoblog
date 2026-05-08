@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "404 – Страницата не е намерена | Autoblog",
+  title: "404 - Страницата не е намерена | Autoblog",
 };
 
 export default function NotFound() {
