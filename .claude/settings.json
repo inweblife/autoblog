@@ -7,7 +7,9 @@
       "Bash(xargs ls *)",
       "Bash(grep -E \"\\\\\\\\.env|netlify\")",
       "Bash(awk -F: '{print $1}')",
-      "Bash(npm audit *)"
+      "Bash(npm audit *)",
+      "Bash(ls \"c:/Users/ivan7/Documents/Dev/\")",
+      "Read(//c/Users/ivan7/Documents/Dev/**)"
     ],
     "additionalDirectories": [
       "c:\\Users\\ivan7\\Documents\\Dev\\autoblog\\app"
