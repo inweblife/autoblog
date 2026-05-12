@@ -6,7 +6,7 @@ export default function Footer() {
           </p>
           <p style={{ marginTop: "0.4em", fontSize: "0.85em", fontWeight: "normal", opacity: 0.8 }}>
             <a
-              href="https://inweblife.vercel.app/"
+              href="https://inweblife.net/"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "#634a00", textDecoration: "underline" }}
