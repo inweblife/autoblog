@@ -5,14 +5,7 @@ export default function Footer() {
             Copyright {new Date().getFullYear()} AutoBlog - новини за коли
           </p>
           <p style={{ marginTop: "0.4em", fontSize: "0.85em", fontWeight: "normal", opacity: 0.8 }}>
-            <a
-              href="https://inweblife.net/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: "#634a00", textDecoration: "underline" }}
-            >
-              SEO оптимизация и изработка на сайт
-            </a>
+            SEO оптимизация и изработка на сайт
           </p>
         </footer>
     );

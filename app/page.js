@@ -55,9 +55,7 @@ export default function Home() {
               <strong>авточасти втора употреба</strong>
             </Link>{" "}
             и др. За актуални{" "}
-            <a href="https://inweblife.pages.dev/" target="_blank" rel="noopener noreferrer">
-              <strong>новини за автомобили</strong>
-            </a>
+            <strong>новини за автомобили</strong>
             {" "}от цял свят следете и нашите партньорски източници.
           </p>
 
